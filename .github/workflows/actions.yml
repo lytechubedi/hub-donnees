@@ -1,0 +1,33 @@
+name: Actualisation des Données
+
+on:
+  schedule:
+    - cron: '0 * * * *' # S'exécute automatiquement toutes les heures
+  workflow_dispatch: # Permet de lancer le script manuellement à tout moment
+
+permissions:
+  contents: write # Donne le droit au robot de modifier et sauvegarder le fichier data.json
+
+jobs:
+  refresh-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le code du dépôt
+        uses: actions/checkout@v4
+
+      - name: Configurer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Exécuter le script d'actualisation
+        run: python update_data.py
+
+      - name: Enregistrer et pousser les modifications
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git commit -m "Mise à jour automatique des données via API [skip ci]" || echo "Aucune modification à propager"
+          git push
+
