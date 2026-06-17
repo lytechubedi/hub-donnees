@@ -28,6 +28,6 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data.json
-          git commit -m "Mise à jour automatique des données via API [skip ci]" || echo "Aucune modification à propager"
+          git commit -m "Mise à jour automatique des données via API" || echo "Aucune modification à propager"
           git push
 
