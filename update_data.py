@@ -14,12 +14,11 @@ try:
     donnees_api = json.loads(source_brute)
     liste_produits = donnees_api.get("products", [])
     
-    # ALGORITHME SENIOR : Tri par popularité (note) et taux de promotion
-    # Identifie le produit le plus rentable et attractif du moment
+    # ALGORITHME : Tri par popularité (note) et taux de promotion
     produits_tries = sorted(liste_produits, key=lambda x: (x.get("rating", 0), x.get("discountPercentage", 0)), reverse=True)
     top_produit = produits_tries[0]
     
-    # Extraction des indicateurs clés du produit gagnant
+    # Extraction des indicateurs clés
     nom_produit = top_produit.get("title", "Produit inconnu")
     niche = top_produit.get("category", "Général").capitalize()
     prix = f"{top_produit.get('price', 0)} USD"
@@ -31,9 +30,21 @@ try:
     
     heure_actuelle = datetime.now().strftime("%H:%M")
 
-    # Reconstruction du JSON (Adapté temporairement aux clés existantes pour éviter les bugs)
+    # Reconstruction propre du dictionnaire de données
     nouvelles_donnees = {
         "titre_flux": f"Radar de Tendances ({niche})",
         "statut_reseau": f"Viral à {score_viralite}%",
         "valeur_crypto": f"{nom_produit} — {prix}",
         "derniere_mise_a_jour": heure_actuelle
+    }
+
+    # ÉCRITURE SÉCURISÉE DU FICHIER JSON
+    with open("data.json", "w", encoding="utf-8") as f:
+        json.dump(nouvelles_donnees, f, indent=4, ensure_ascii=False)
+        
+    print("Fichier data.json mis à jour avec succès avec le produit tendance !")
+
+except Exception as e:
+    print(f"Erreur durant l'exécution : {e}")
+    exit(1)
+
