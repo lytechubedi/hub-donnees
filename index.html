@@ -3,7 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trend & Product Hunter</title>
+    
+    <!-- Balises SEO Standard -->
+    <title>Trend Hunter Dashboard 🚀</title>
+    <meta name="description" content="Radar automatisé de détection de produits gagnants et de niches e-commerce à fort potentiel viral.">
+
+    <!-- Balises Open Graph (Pour WhatsApp, TikTok, Facebook) -->
+    <meta property="og:title" content="Trend Hunter Dashboard 🚀 — Sourcing Live">
+    <meta property="og:description" content="Découvre en temps réel le produit e-commerce le plus viral détecté par mon algorithme cloud.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lytechubedi.github.io/hub-donnees/">
+    <meta property="og:image" content="https://opengraph.githubassets.com/1/Lytechubedi/hub-donnees">
+
+    <!-- Balises Twitter/X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Trend Hunter Dashboard 🚀">
+    <meta name="twitter:description" content="Radar de produits e-commerce mis à jour automatiquement toutes les heures.">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,10 +29,12 @@
             <p><strong>Analyse :</strong> <span id="flux-titre">Recherche en cours...</span></p>
             <p><strong>Potentiel TikTok/Shorts :</strong> <span id="viral-statut">Calcul...</span></p>
             
+            <!-- Zone Image d'Aperçu du Produit -->
             <div style="text-align: center; margin: 15px 0;">
-                <img id="produit-image" src="" alt="Aperçu" style="max-width: 140px; border-radius: 12px; display: none; box-shadow: 0 4px 15px rgba(0,0,0,0.3); margin: 0 auto;">
+                <img id="produit-image" src="" alt="Aperçu du produit" style="max-width: 140px; border-radius: 12px; display: none; box-shadow: 0 4px 15px rgba(0,0,0,0.3); margin: 0 auto;">
             </div>
 
+            <!-- Produit avec son lien de sourcing direct -->
             <p><strong>Produit Gagnant :</strong> <a id="produit-details" href="#" target="_blank" style="color: #64ffda; text-decoration: underline; font-weight: bold;">Sourcing...</a></p>
             <p class="date-maj">Vérifié à : <span id="maj-heure">--:--</span></p>
         </div>
