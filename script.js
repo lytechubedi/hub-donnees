@@ -7,22 +7,25 @@ async function chargerTendances() {
         document.getElementById('viral-statut').textContent = donnees.statut_reseau;
         document.getElementById('maj-heure').textContent = donnees.derniere_mise_a_jour;
         
-        // Gestion dynamique de l'image
+        // Affichage dynamique de la photo du produit
         const imgElement = document.getElementById('produit-image');
-        if (donnees.image_produit) {
-            imgElement.src = donnees.image_produit;
+        if (donnees.url_image) {
+            imgElement.src = donnees.url_image;
             imgElement.style.display = 'block';
         }
 
-        // Gestion du lien cliquable
+        // Configuration du lien hypertexte de sourcing
         const lienElement = document.getElementById('produit-details');
-        lienElement.textContent = donnees.valeur_crypto;
-        lienElement.href = donnees.lien_sourcing;
+        if (donnees.nom_produit) {
+            lienElement.textContent = donnees.nom_produit;
+        }
+        if (donnees.url_produit) {
+            lienElement.href = donnees.url_produit;
+        }
 
     } catch (erreur) {
-        console.error("Erreur lors de la synchronisation :", erreur);
+        console.error("Erreur de synchronisation du dashboard :", erreur);
     }
 }
 
 chargerTendances();
-
