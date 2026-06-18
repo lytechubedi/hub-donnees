@@ -1,18 +1,33 @@
 async function chargerTendances() {
     try {
+        // Le "?t=" force ton téléphone à télécharger la version la plus récente sans cache
         const reponse = await fetch('data.json?t=' + new Date().getTime());
         const donnees = await reponse.json();
         
-        document.getElementById('maj-heure').textContent = donnees.derniere_mise_a_jour;
+        // 1. Affichage de l'heure
+        document.getElementById('maj-heure').textContent = donnees.derniere_mise_a_jour || "--:--";
         
         const conteneur = document.getElementById('conteneur-produits');
-        conteneur.innerHTML = ""; // On nettoie le texte de chargement
         
-        // BOUCLE DYNAMIQUE : Génère une carte complète pour chaque produit du Top 5
+        // 2. Vérification du format du fichier data.json
+        if (!donnees.produits || !Array.isArray(donnees.produits)) {
+            // Si le robot Python n'a pas encore tourné, on affiche ce message d'attente pro
+            conteneur.innerHTML = `
+                <div class="card" style="text-align: center;">
+                    <p style="color: #64ffda; font-weight: bold;">🔄 Transition vers le Top 5 en cours...</p>
+                    <p style="font-size: 0.9em; color: #8892b0;">Le fichier de données doit être régénéré. Active le robot dans l'onglet Actions de GitHub.</p>
+                </div>
+            `;
+            return;
+        }
+        
+        // 3. Si le Top 5 est prêt, on nettoie et on injecte les 5 cartes
+        conteneur.innerHTML = ""; 
+        
         donnees.produits.forEach(produit => {
             const carte = document.createElement('div');
             carte.className = 'card';
-            carte.style.marginBottom = '25px'; // Ajoute un espace élégant entre chaque produit
+            carte.style.marginBottom = '20px'; // Espace élégant entre les cartes
             
             carte.innerHTML = `
                 <p><strong>Analyse :</strong> <span>Radar de Tendances (${produit.niche})</span></p>
@@ -29,8 +44,13 @@ async function chargerTendances() {
         });
 
     } catch (erreur) {
-        console.error("Erreur lors de la génération de la liste :", erreur);
-        document.getElementById('conteneur-produits').innerHTML = `<p style="color: #ff6b6b; text-align: center;">⚠️ Erreur de synchronisation du catalogue.</p>`;
+        console.error("Erreur :", erreur);
+        document.getElementById('conteneur-produits').innerHTML = `
+            <div class="card" style="text-align: center; border: 1px solid #ff6b6b;">
+                <p style="color: #ff6b6b; font-weight: bold;">⚠️ Erreur de chargement</p>
+                <p style="font-size: 0.85em; color: #8892b0;">Impossible de lire le catalogue des tendances.</p>
+            </div>
+        `;
     }
 }
 
