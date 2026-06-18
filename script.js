@@ -1,25 +1,18 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const dataBox = document.getElementById("data-box");
-    
-    // Récupération dynamique du fichier JSON
-    fetch("data.json")
-        .then(response => {
-            if (!response.ok) {
-                throw new Error("Impossible de lire le fichier de données.");
-            }
-            return response.json();
-        })
-        .then(data => {
-            // Injection des données structurées dans le paragraphe HTML
-            dataBox.innerHTML = `
-                Flux : ${data.titre_flux}<br>
-                Statut : <span style="color: #4ade80;">${data.statut_reseau}</span><br>
-                Crypto : <span style="color: #38bdf8;">${data.valeur_crypto}</span><br>
-                Mise à jour : ${data.derniere_mise_a_jour}
-            `;
-        })
-        .catch(error => {
-            dataBox.innerText = "Erreur critique de synchronisation des données.";
-            dataBox.style.color = "#ef4444"; // Rouge en cas de panne
-        });
-});
+async function chargerTendances() {
+    try {
+        // Le paramètre '?t=' brise le cache des téléphones pour afficher le produit instantanément
+        const reponse = await fetch('data.json?t=' + new Date().getTime());
+        const donnees = await reponse.json();
+        
+        document.getElementById('flux-titre').textContent = donnees.titre_flux;
+        document.getElementById('viral-statut').textContent = donnees.statut_reseau;
+        document.getElementById('produit-details').textContent = donnees.valeur_crypto;
+        document.getElementById('maj-heure').textContent = donnees.derniere_mise_a_jour;
+    } catch (erreur) {
+        console.error("Erreur lors de la synchronisation du dashboard :", erreur);
+    }
+}
+
+// Lancement automatique au chargement de la page
+chargerTendances();
+
