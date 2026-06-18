@@ -2,38 +2,38 @@ import json
 import urllib.request
 from datetime import datetime
 
-# 1. URL de l'API publique (Coindesk pour le prix du Bitcoin en temps réel)
-url = "https://api.coindesk.com/v1/bpi/currentprice.json"
+# API publique de produits mondiaux (Sans clé nécessaire)
+url = "https://dummyjson.com/products?limit=30"
 
 try:
-    # Connexion à l'API et téléchargement des données brutes
-    with urllib.request.urlopen(url) as response:
-        source_de_donnees = response.read().decode()
+    # Connexion sécurisée à l'API de sourcing
+    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    with urllib.request.urlopen(req) as response:
+        source_brute = response.read().decode()
         
-    # Transformation du texte brut en dictionnaire Python (Parsing JSON)
-    donnees_api = json.loads(source_de_donnees)
+    donnees_api = json.loads(source_brute)
+    liste_produits = donnees_api.get("products", [])
     
-    # Extraction précise du prix du Bitcoin en USD (ex: "65,420.12")
-    prix_btc = donnees_api["bpi"]["USD"]["rate"] + " USD"
+    # ALGORITHME SENIOR : Tri par popularité (note) et taux de promotion
+    # Identifie le produit le plus rentable et attractif du moment
+    produits_tries = sorted(liste_produits, key=lambda x: (x.get("rating", 0), x.get("discountPercentage", 0)), reverse=True)
+    top_produit = produits_tries[0]
     
-    # Récupération de l'heure actuelle sur le serveur
+    # Extraction des indicateurs clés du produit gagnant
+    nom_produit = top_produit.get("title", "Produit inconnu")
+    niche = top_produit.get("category", "Général").capitalize()
+    prix = f"{top_produit.get('price', 0)} USD"
+    note = top_produit.get("rating", 4.5)
+    stock_restant = top_produit.get("stock", 10)
+    
+    # Calcul dynamique du Score de Viralité TikTok/Shorts (sur 100)
+    score_viralite = min(100, int((note * 15) + (100 - stock_restant) * 0.25))
+    
     heure_actuelle = datetime.now().strftime("%H:%M")
 
-    # 2. Reconstruction de la structure de NOTRE fichier data.json
+    # Reconstruction du JSON (Adapté temporairement aux clés existantes pour éviter les bugs)
     nouvelles_donnees = {
-        "titre_flux": "Flux de données Lytechubedi (LIVE API)",
-        "derniere_mise_a_jour": heure_actuelle,
-        "valeur_crypto": prix_btc,
-        "statut_reseau": "Opérationnel",
-        "nombre_alertes": 0
-    }
-
-    # 3. Écrasement automatique du fichier data.json avec les vraies valeurs
-    with open("data.json", "w", encoding="utf-8") as fichier:
-        json.dump(nouvelles_donnees, fichier, ensure_ascii=False, indent=4)
-        
-    print("Succès : Le fichier data.json a été mis à jour avec les données de l'API.")
-
-except Exception as error:
-    print(f"Erreur critique lors de la récupération de l'API : {error}")
-
+        "titre_flux": f"Radar de Tendances ({niche})",
+        "statut_reseau": f"Viral à {score_viralite}%",
+        "valeur_crypto": f"{nom_produit} — {prix}",
+        "derniere_mise_a_jour": heure_actuelle
