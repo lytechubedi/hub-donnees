@@ -1,8 +1,45 @@
 {
-    "titre_flux": "Radar de Tendances (Groceries)",
-    "statut_reseau": "Viral à 74%",
-    "nom_produit": "Kiwi — 2.49 USD",
-    "url_image": "https://cdn.dummyjson.com/product-images/groceries/kiwi/thumbnail.webp",
-    "url_produit": "https://www.google.com/search?q=Kiwi+sourcing+aliexpress",
-    "derniere_mise_a_jour": "16:05"
+    "derniere_mise_a_jour": "16:17",
+    "produits": [
+        {
+            "niche": "Groceries",
+            "nom": "Kiwi",
+            "prix": "2.49 USD",
+            "score": "Viral à 74%",
+            "url_image": "https://cdn.dummyjson.com/product-images/groceries/kiwi/thumbnail.webp",
+            "url_produit": "https://www.google.com/search?q=Kiwi+sourcing+aliexpress"
+        },
+        {
+            "niche": "Furniture",
+            "nom": "Knoll Saarinen Executive Conference Chair",
+            "prix": "499.99 USD",
+            "score": "Viral à 91%",
+            "url_image": "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/thumbnail.webp",
+            "url_produit": "https://www.google.com/search?q=Knoll%20Saarinen%20Executive%20Conference%20Chair+sourcing+aliexpress"
+        },
+        {
+            "niche": "Groceries",
+            "nom": "Cooking Oil",
+            "prix": "4.99 USD",
+            "score": "Viral à 94%",
+            "url_image": "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/thumbnail.webp",
+            "url_produit": "https://www.google.com/search?q=Cooking%20Oil+sourcing+aliexpress"
+        },
+        {
+            "niche": "Furniture",
+            "nom": "Annibale Colombo Bed",
+            "prix": "1899.99 USD",
+            "score": "Viral à 74%",
+            "url_image": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/thumbnail.webp",
+            "url_produit": "https://www.google.com/search?q=Annibale%20Colombo%20Bed+sourcing+aliexpress"
+        },
+        {
+            "niche": "Beauty",
+            "nom": "Powder Canister",
+            "prix": "14.99 USD",
+            "score": "Viral à 72%",
+            "url_image": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/thumbnail.webp",
+            "url_produit": "https://www.google.com/search?q=Powder%20Canister+sourcing+aliexpress"
+        }
+    ]
 }
