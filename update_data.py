@@ -22,31 +22,29 @@ try:
     note = top_produit.get("rating", 4.5)
     stock_restant = top_produit.get("stock", 10)
     
-    # Récupération de l'image miniature du produit
     image_url = top_produit.get("thumbnail", "")
     
-    # Génération automatique d'un lien de sourcing
     nom_encode = urllib.parse.quote(nom_produit)
     lien_sourcing = f"https://www.google.com/search?q={nom_encode}+sourcing+aliexpress"
     
     score_viralite = min(100, int((note * 15) + (100 - stock_restant) * 0.25))
     heure_actuelle = datetime.now().strftime("%H:%M")
 
+    # Clés ultra-propres et explicites
     nouvelles_donnees = {
         "titre_flux": f"Radar de Tendances ({niche})",
         "statut_reseau": f"Viral à {score_viralite}%",
-        "valeur_crypto": f"{nom_produit} — {prix}",
-        "image_produit": image_url,
-        "lien_sourcing": lien_sourcing,
+        "nom_produit": f"{nom_produit} — {prix}",
+        "url_image": image_url,
+        "url_produit": lien_sourcing,
         "derniere_mise_a_jour": heure_actuelle
     }
 
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(nouvelles_donnees, f, indent=4, ensure_ascii=False)
         
-    print("Fichier data.json mis à jour avec visuels et liens !")
+    print("Fichier data.json synchronisé avec les nouvelles clés !")
 
 except Exception as e:
     print(f"Erreur : {e}")
     exit(1)
-
