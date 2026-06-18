@@ -1,33 +1,30 @@
 name: Actualisation des Données
 
 on:
-  schedule:
-    - cron: '0 * * * *' # S'exécute automatiquement toutes les heures
-  workflow_dispatch: # Permet de lancer le script manuellement à tout moment
+  workflow_dispatch: # Permet de lancer le robot manuellement
 
 permissions:
-  contents: write # Donne le droit au robot de modifier et sauvegarder le fichier data.json
+  contents: write # CRUCIAL : Donne l'autorisation au robot d'écrire et de sauvegarder dans ton dépôt
 
 jobs:
   refresh-data:
     runs-on: ubuntu-latest
     steps:
-      - name: Récupérer le code du dépôt
+      - name: Récupération du code
         uses: actions/checkout@v4
 
-      - name: Configurer Python
+      - name: Installation de Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.10'
 
-      - name: Exécuter le script d'actualisation
+      - name: Extraction du produit tendance
         run: python update_data.py
 
-      - name: Enregistrer et pousser les modifications
+      - name: Sauvegarde et Push du fichier data.json
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "TrendBot"
+          git config --global user.email "trendbot@github.com"
           git add data.json
-          git commit -m "Mise à jour automatique des données via API" || echo "Aucune modification à propager"
+          git commit -m "Mise à jour automatique du produit gagnant 🚀" || echo "Aucun changement détecté"
           git push
-
