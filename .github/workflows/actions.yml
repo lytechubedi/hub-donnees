@@ -1,30 +1,32 @@
-name: Actualisation des Données
+name: BOA Cron Auto
 
 on:
-  workflow_dispatch: # Permet de lancer le robot manuellement
+  schedule:
+    - cron: '0 */3 * * *' # Se lance automatiquement toutes les 3 heures
+  workflow_dispatch: # Te permet de le lancer manuellement depuis ton téléphone
 
 permissions:
-  contents: write # CRUCIAL : Donne l'autorisation au robot d'écrire et de sauvegarder dans ton dépôt
+  contents: write # Donne le droit à GitHub d'enregistrer les données
 
 jobs:
-  refresh-data:
+  run-bot:
     runs-on: ubuntu-latest
     steps:
-      - name: Récupération du code
+      - name: Récupérer le code du dépôt
         uses: actions/checkout@v4
 
-      - name: Installation de Python
+      - name: Configurer Python sur le serveur
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Extraction du produit tendance
-        run: python update_data.py
+      - name: Lancer le robot de sourcing e-commerce
+        run: python scripts/fetch_ecom.py
 
-      - name: Sauvegarde et Push du fichier data.json
+      - name: Enregistrer les nouveaux produits trouvés
         run: |
-          git config --global user.name "TrendBot"
-          git config --global user.email "trendbot@github.com"
-          git add data.json
-          git commit -m "Mise à jour automatique du produit gagnant 🚀" || echo "Aucun changement détecté"
+          git config --global user.name "BOA-Bot"
+          git config --global user.email "bot@businessopportunityafrica.com"
+          git add data/ecom_products.json
+          git diff-index --quiet HEAD || git commit -m "Mise à jour automatique des produits 🔥"
           git push
