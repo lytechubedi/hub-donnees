@@ -23,11 +23,11 @@ POOL_PRODUITS = [
         "title": "Mousseur à Lait Électrique Sans Fil",
         "category": "Cuisine",
         "price": "6.20 USD",
-        "market_context": "Tendance "Home Cafe" très forte sur les réseaux. Petit, pas cher à expédier.",
+        "market_context": "Tendance 'Home Cafe' très forte sur les réseaux. Petit, pas cher à expédier.",
         "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=electric+milk+frother"
     },
     {
-        "title": "Sac à Dos Antivol avec Port de Charge USB",
+        "title": "Sac à Doc Antivol avec Port de Charge USB",
         "category": "Mode & Voyage",
         "price": "18.90 USD",
         "market_context": "Le best-seller indémodable pour les étudiants et voyageurs. Très recherché.",
@@ -71,7 +71,7 @@ def run_bot():
     
     items = []
     for p in produits_choisis:
-        # Générer une image d'illustration générique et un score de viralité aléatoire mais élevé
+        # Générer un score de viralité aléatoire mais élevé
         score_viral = random.randint(75, 98)
         
         items.append({
@@ -80,7 +80,7 @@ def run_bot():
             "price": p["price"],
             "viral_score": score_viral,
             "market_context": p["market_context"],
-            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=150&auto=format&fit=crop", # Image générique propre
+            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=150&auto=format&fit=crop", # Image propre
             "sourcing_url": p["sourcing_url"]
         })
     
