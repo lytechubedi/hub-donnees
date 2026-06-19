@@ -1,104 +1,80 @@
 import json
 import os
-import random
+import urllib.parse
+import urllib.request
+import xml.etree.ElementTree as ET
 from datetime import datetime
 
-# 1. Grand catalogue de produits e-commerce à forte tendance mondiale
-POOL_PRODUITS = [
-    {
-        "title": "Mini Projecteur LED 4K Portable",
-        "category": "High-Tech",
-        "price": "39.99 USD",
-        "market_context": "Explose sur TikTok. Idéal pour les soirées cinéma en plein air ou dans la chambre.",
-        "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=mini+projector+4k"
-    },
-    {
-        "title": "Brosse Nettoyante Visage Ultrasons",
-        "category": "Beauté & Soins",
-        "price": "14.50 USD",
-        "market_context": "Forte demande en cosmétique. Produit à forte marge pour les boutiques de soins.",
-        "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=ultrasonic+face+cleanser"
-    },
-    {
-        "title": "Mousseur à Lait Électrique Sans Fil",
-        "category": "Cuisine",
-        "price": "6.20 USD",
-        "market_context": "Tendance 'Home Cafe' très forte sur les réseaux. Petit, pas cher à expédier.",
-        "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=electric+milk+frother"
-    },
-    {
-        "title": "Sac à Doc Antivol avec Port de Charge USB",
-        "category": "Mode & Voyage",
-        "price": "18.90 USD",
-        "market_context": "Le best-seller indémodable pour les étudiants et voyageurs. Très recherché.",
-        "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=anti+theft+backpack+usb"
-    },
-    {
-        "title": "Gourde Isotherme Intelligente avec Affichage LED",
-        "category": "Sport & Fitness",
-        "price": "8.50 USD",
-        "market_context": "Affiche la température du liquide. Produit écologique très populaire.",
-        "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=smart+led+vacuum+flask"
-    },
-    {
-        "title": "Support Téléphone Magnétique pour Voiture (MagSafe)",
-        "category": "Accessoires Auto",
-        "price": "4.10 USD",
-        "market_context": "Accessoire indispensable. Volume de vente extrêmement élevé sur les places de marché.",
-        "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=magnetic+car+phone+holder"
-    },
-    {
-        "title": "Masseur Oculaire Chauffant Bluetooth",
-        "category": "Bien-être",
-        "price": "22.00 USD",
-        "market_context": "Aide à la relaxation et soulage la fatigue des écrans. Produit premium d'impulsion.",
-        "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=heating+eye+massager"
-    },
-    {
-        "title": "Mini Aspirateur Sans Fil pour Bureau et Voiture",
-        "category": "Maison",
-        "price": "11.30 USD",
-        "market_context": "Gadget de nettoyage viral. Très fort taux de conversion en vidéo publicitaire.",
-        "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=mini+wireless+vacuum"
-    }
-]
-
 def run_bot():
-    print("Démarrage du scanner de tendances BOA...")
+    print("Connexion en direct au flux officiel Google Trends France...")
+    # Flux RSS public de Google Trends pour la France (évite les blocages de serveurs)
+    url = "https://trends.google.com/trending/rss?geo=FR"
     
-    # Sélectionner 5 produits au hasard dans notre grand catalogue
-    produits_choisis = random.sample(POOL_PRODUITS, 5)
-    
-    items = []
-    for p in produits_choisis:
-        # Générer un score de viralité aléatoire mais élevé
-        score_viral = random.randint(75, 98)
+    try:
+        # Configuration de la requête pour simuler un navigateur propre
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
+        with urllib.request.urlopen(req) as response:
+            xml_data = response.read()
+            
+        # Lecture du contenu XML envoyé par Google
+        root = ET.fromstring(xml_data)
+        items = []
         
-        items.append({
-            "title": p["title"],
-            "category": p["category"],
-            "price": p["price"],
-            "viral_score": score_viral,
-            "market_context": p["market_context"],
-            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=150&auto=format&fit=crop", # Image propre
-            "sourcing_url": p["sourcing_url"]
-        })
-    
-    # Créer le dossier 'data' si jamais il n'existe pas
-    os.makedirs("data", exist_ok=True)
-    
-    # Préparer le fichier de données final
-    maintenant = datetime.now().strftime("%H:%M")
-    data_finale = {
-        "last_updated": maintenant,
-        "items": items
-    }
-    
-    # Sauvegarder dans le fichier JSON
-    with open("data/ecom_products.json", "w", encoding="utf-8") as f:
-        json.dump(data_finale, f, ensure_ascii=False, indent=4)
+        # Les namespaces spécifiques utilisés par Google dans son flux XML
+        namespaces = {
+            'ht': 'http://www.google.com/trends/category/trendingsearches'
+        }
         
-    print(f"Succès ! 5 nouveaux produits sauvegardés à {maintenant}.")
+        count = 0
+        for item in root.findall('.//item'):
+            if count >= 5:
+                break
+                
+            # Extraire le mot-clé ou sujet réel qui explose sur Google
+            title = item.find('title').text
+            
+            # Extraire le volume réel de recherches (ex: 50 000+ recherches)
+            traffic_elem = item.find('ht:approx_traffic', namespaces)
+            traffic = traffic_elem.text if traffic_elem is not None else "Forte hausse"
+            
+            # Extraire l'image d'actualité liée par Google
+            picture_elem = item.find('ht:picture', namespaces)
+            image_url = picture_elem.text if picture_elem is not None else "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=150"
+            
+            # Encoder le mot-clé pour créer un lien de sourcing/analyse propre vers Google Trends
+            encoded_query = urllib.parse.quote(title)
+            sourcing_url = f"https://trends.google.com/trends/explore?q={encoded_query}&geo=FR"
+            
+            # Construire la fiche dynamique basée sur la vraie tendance du jour
+            items.append({
+                "title": f"Tendance : {title}",
+                "category": "Google Trends Live",
+                "price": f"{traffic} requêtes",
+                "viral_score": 99 - count, # Score basé sur la position dans le top France
+                "market_context": f"Sujet actuellement dans le Top 5 des recherches Google en France. Intérêt du public maximal à exploiter immédiatement.",
+                "image_url": image_url,
+                "sourcing_url": sourcing_url
+            })
+            count += 1
+            
+        # Création du dossier de stockage si nécessaire
+        os.makedirs("data", exist_ok=True)
+        
+        # Enregistrement des données avec l'heure
+        maintenant = datetime.now().strftime("%H:%M")
+        data_finale = {
+            "last_updated": maintenant,
+            "items": items
+        }
+        
+        with open("data/ecom_products.json", "w", encoding="utf-8") as f:
+            json.dump(data_finale, f, ensure_ascii=False, indent=4)
+            
+        print(f"Succès total ! 5 tendances réelles extraites de Google France à {maintenant}.")
+        
+    except Exception as e:
+        print(f"Erreur technique lors de la liaison Google Trends : {e}")
+        raise e
 
 if __name__ == "__main__":
     run_bot()
