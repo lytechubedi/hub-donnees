@@ -1,56 +1,50 @@
 {
-    "last_updated": "21:36",
-    "count": 5,
+    "last_updated": "21:59",
     "items": [
         {
-            "id": "ecom_30",
-            "title": "Kiwi",
-            "category": "Groceries",
-            "price": "2.49 USD",
-            "viral_score": 74,
-            "image_url": "https://cdn.dummyjson.com/product-images/groceries/kiwi/thumbnail.webp",
-            "sourcing_url": "https://www.google.com/search?q=Kiwi+sourcing+aliexpress",
-            "market_context": "Niche Groceries. Validé par l'algorithme de tendance BOA."
+            "title": "Sac à Doc Antivol avec Port de Charge USB",
+            "category": "Mode & Voyage",
+            "price": "18.90 USD",
+            "viral_score": 75,
+            "market_context": "Le best-seller indémodable pour les étudiants et voyageurs. Très recherché.",
+            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=150&auto=format&fit=crop",
+            "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=anti+theft+backpack+usb"
         },
         {
-            "id": "ecom_14",
-            "title": "Knoll Saarinen Executive Conference Chair",
-            "category": "Furniture",
-            "price": "499.99 USD",
-            "viral_score": 91,
-            "image_url": "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/thumbnail.webp",
-            "sourcing_url": "https://www.google.com/search?q=Knoll%20Saarinen%20Executive%20Conference%20Chair+sourcing+aliexpress",
-            "market_context": "Niche Furniture. Validé par l'algorithme de tendance BOA."
+            "title": "Support Téléphone Magnétique pour Voiture (MagSafe)",
+            "category": "Accessoires Auto",
+            "price": "4.10 USD",
+            "viral_score": 97,
+            "market_context": "Accessoire indispensable. Volume de vente extrêmement élevé sur les places de marché.",
+            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=150&auto=format&fit=crop",
+            "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=magnetic+car+phone+holder"
         },
         {
-            "id": "ecom_20",
-            "title": "Cooking Oil",
-            "category": "Groceries",
-            "price": "4.99 USD",
-            "viral_score": 94,
-            "image_url": "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/thumbnail.webp",
-            "sourcing_url": "https://www.google.com/search?q=Cooking%20Oil+sourcing+aliexpress",
-            "market_context": "Niche Groceries. Validé par l'algorithme de tendance BOA."
+            "title": "Mini Projecteur LED 4K Portable",
+            "category": "High-Tech",
+            "price": "39.99 USD",
+            "viral_score": 78,
+            "market_context": "Explose sur TikTok. Idéal pour les soirées cinéma en plein air ou dans la chambre.",
+            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=150&auto=format&fit=crop",
+            "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=mini+projector+4k"
         },
         {
-            "id": "ecom_11",
-            "title": "Annibale Colombo Bed",
-            "category": "Furniture",
-            "price": "1899.99 USD",
-            "viral_score": 74,
-            "image_url": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/thumbnail.webp",
-            "sourcing_url": "https://www.google.com/search?q=Annibale%20Colombo%20Bed+sourcing+aliexpress",
-            "market_context": "Niche Furniture. Validé par l'algorithme de tendance BOA."
+            "title": "Masseur Oculaire Chauffant Bluetooth",
+            "category": "Bien-être",
+            "price": "22.00 USD",
+            "viral_score": 90,
+            "market_context": "Aide à la relaxation et soulage la fatigue des écrans. Produit premium d'impulsion.",
+            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=150&auto=format&fit=crop",
+            "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=heating+eye+massager"
         },
         {
-            "id": "ecom_3",
-            "title": "Powder Canister",
-            "category": "Beauty",
-            "price": "14.99 USD",
-            "viral_score": 72,
-            "image_url": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/thumbnail.webp",
-            "sourcing_url": "https://www.google.com/search?q=Powder%20Canister+sourcing+aliexpress",
-            "market_context": "Niche Beauty. Validé par l'algorithme de tendance BOA."
+            "title": "Brosse Nettoyante Visage Ultrasons",
+            "category": "Beauté & Soins",
+            "price": "14.50 USD",
+            "viral_score": 83,
+            "market_context": "Forte demande en cosmétique. Produit à forte marge pour les boutiques de soins.",
+            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=150&auto=format&fit=crop",
+            "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=ultrasonic+face+cleanser"
         }
     ]
 }
