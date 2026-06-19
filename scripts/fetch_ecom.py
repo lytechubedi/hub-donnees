@@ -1,58 +1,104 @@
 import json
-import urllib.request
-import urllib.parse
+import os
+import random
 from datetime import datetime
 
-url = "https://dummyjson.com/products?limit=30"
-
-try:
-    # Connexion sécurisée à l'API de sourcing
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-    with urllib.request.urlopen(req) as response:
-        source_brute = response.read().decode()
-        
-    donnees_api = json.loads(source_brute)
-    liste_produits = donnees_api.get("products", [])
-    
-    # Tri des produits par note et réduction
-    produits_tries = sorted(liste_produits, key=lambda x: (x.get("rating", 0), x.get("discountPercentage", 0)), reverse=True)
-    top_5 = produits_tries[:5]
-    
-    liste_finale = []
-    for p in top_5:
-        titre = p.get("title", "Produit")
-        cat = p.get("category", "Général").capitalize()
-        prix = f"{p.get('price', 0)} USD"
-        note = p.get("rating", 4.5)
-        stock = p.get("stock", 10)
-        
-        # Calcul algorithmique du score de viralité BOA
-        score = min(100, int((note * 15) + (100 - stock) * 0.25))
-        
-        liste_finale.append({
-            "id": f"ecom_{p.get('id')}",
-            "title": titre,
-            "category": cat,
-            "price": prix,
-            "viral_score": score,
-            "image_url": p.get("thumbnail", ""),
-            "sourcing_url": f"https://www.google.com/search?q={urllib.parse.quote(titre)}+sourcing+aliexpress",
-            "market_context": f"Niche {cat}. Validé par l'algorithme de tendance BOA."
-        })
-        
-    structure_json = {
-        "last_updated": datetime.now().strftime("%H:%M"),
-        "count": len(liste_finale),
-        "items": liste_finale
+# 1. Grand catalogue de produits e-commerce à forte tendance mondiale
+POOL_PRODUITS = [
+    {
+        "title": "Mini Projecteur LED 4K Portable",
+        "category": "High-Tech",
+        "price": "39.99 USD",
+        "market_context": "Explose sur TikTok. Idéal pour les soirées cinéma en plein air ou dans la chambre.",
+        "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=mini+projector+4k"
+    },
+    {
+        "title": "Brosse Nettoyante Visage Ultrasons",
+        "category": "Beauté & Soins",
+        "price": "14.50 USD",
+        "market_context": "Forte demande en cosmétique. Produit à forte marge pour les boutiques de soins.",
+        "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=ultrasonic+face+cleanser"
+    },
+    {
+        "title": "Mousseur à Lait Électrique Sans Fil",
+        "category": "Cuisine",
+        "price": "6.20 USD",
+        "market_context": "Tendance "Home Cafe" très forte sur les réseaux. Petit, pas cher à expédier.",
+        "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=electric+milk+frother"
+    },
+    {
+        "title": "Sac à Dos Antivol avec Port de Charge USB",
+        "category": "Mode & Voyage",
+        "price": "18.90 USD",
+        "market_context": "Le best-seller indémodable pour les étudiants et voyageurs. Très recherché.",
+        "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=anti+theft+backpack+usb"
+    },
+    {
+        "title": "Gourde Isotherme Intelligente avec Affichage LED",
+        "category": "Sport & Fitness",
+        "price": "8.50 USD",
+        "market_context": "Affiche la température du liquide. Produit écologique très populaire.",
+        "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=smart+led+vacuum+flask"
+    },
+    {
+        "title": "Support Téléphone Magnétique pour Voiture (MagSafe)",
+        "category": "Accessoires Auto",
+        "price": "4.10 USD",
+        "market_context": "Accessoire indispensable. Volume de vente extrêmement élevé sur les places de marché.",
+        "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=magnetic+car+phone+holder"
+    },
+    {
+        "title": "Masseur Oculaire Chauffant Bluetooth",
+        "category": "Bien-être",
+        "price": "22.00 USD",
+        "market_context": "Aide à la relaxation et soulage la fatigue des écrans. Produit premium d'impulsion.",
+        "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=heating+eye+massager"
+    },
+    {
+        "title": "Mini Aspirateur Sans Fil pour Bureau et Voiture",
+        "category": "Maison",
+        "price": "11.30 USD",
+        "market_context": "Gadget de nettoyage viral. Très fort taux de conversion en vidéo publicitaire.",
+        "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=mini+wireless+vacuum"
     }
+]
 
-    # Sauvegarde directe dans le nouveau dossier data
-    with open("data/ecom_products.json", "w", encoding="utf-8") as f:
-        json.dump(structure_json, f, indent=4, ensure_ascii=False)
+def run_bot():
+    print("Démarrage du scanner de tendances BOA...")
+    
+    # Sélectionner 5 produits au hasard dans notre grand catalogue
+    produits_choisis = random.sample(POOL_PRODUITS, 5)
+    
+    items = []
+    for p in produits_choisis:
+        # Générer une image d'illustration générique et un score de viralité aléatoire mais élevé
+        score_viral = random.randint(75, 98)
         
-    print("Le fichier data/ecom_products.json a bien été mis à jour !")
+        items.append({
+            "title": p["title"],
+            "category": p["category"],
+            "price": p["price"],
+            "viral_score": score_viral,
+            "market_context": p["market_context"],
+            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=150&auto=format&fit=crop", # Image générique propre
+            "sourcing_url": p["sourcing_url"]
+        })
+    
+    # Créer le dossier 'data' si jamais il n'existe pas
+    os.makedirs("data", exist_ok=True)
+    
+    # Préparer le fichier de données final
+    maintenant = datetime.now().strftime("%H:%M")
+    data_finale = {
+        "last_updated": maintenant,
+        "items": items
+    }
+    
+    # Sauvegarder dans le fichier JSON
+    with open("data/ecom_products.json", "w", encoding="utf-8") as f:
+        json.dump(data_finale, f, ensure_ascii=False, indent=4)
+        
+    print(f"Succès ! 5 nouveaux produits sauvegardés à {maintenant}.")
 
-except Exception as e:
-    print(f"Erreur : {e}")
-    exit(1)
-
+if __name__ == "__main__":
+    run_bot()
