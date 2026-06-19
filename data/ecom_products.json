@@ -1,50 +1,50 @@
 {
-    "last_updated": "21:59",
+    "last_updated": "22:10",
     "items": [
         {
-            "title": "Sac à Doc Antivol avec Port de Charge USB",
-            "category": "Mode & Voyage",
-            "price": "18.90 USD",
-            "viral_score": 75,
-            "market_context": "Le best-seller indémodable pour les étudiants et voyageurs. Très recherché.",
-            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=150&auto=format&fit=crop",
-            "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=anti+theft+backpack+usb"
+            "title": "Tendance : saibari",
+            "category": "Google Trends Live",
+            "price": "Forte hausse requêtes",
+            "viral_score": 99,
+            "market_context": "Sujet actuellement dans le Top 5 des recherches Google en France. Intérêt du public maximal à exploiter immédiatement.",
+            "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=150",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=saibari&geo=FR"
         },
         {
-            "title": "Support Téléphone Magnétique pour Voiture (MagSafe)",
-            "category": "Accessoires Auto",
-            "price": "4.10 USD",
+            "title": "Tendance : ismael saibari",
+            "category": "Google Trends Live",
+            "price": "Forte hausse requêtes",
+            "viral_score": 98,
+            "market_context": "Sujet actuellement dans le Top 5 des recherches Google en France. Intérêt du public maximal à exploiter immédiatement.",
+            "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=150",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=ismael%20saibari&geo=FR"
+        },
+        {
+            "title": "Tendance : brahim díaz",
+            "category": "Google Trends Live",
+            "price": "Forte hausse requêtes",
             "viral_score": 97,
-            "market_context": "Accessoire indispensable. Volume de vente extrêmement élevé sur les places de marché.",
-            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=150&auto=format&fit=crop",
-            "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=magnetic+car+phone+holder"
+            "market_context": "Sujet actuellement dans le Top 5 des recherches Google en France. Intérêt du public maximal à exploiter immédiatement.",
+            "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=150",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=brahim%20d%C3%ADaz&geo=FR"
         },
         {
-            "title": "Mini Projecteur LED 4K Portable",
-            "category": "High-Tech",
-            "price": "39.99 USD",
-            "viral_score": 78,
-            "market_context": "Explose sur TikTok. Idéal pour les soirées cinéma en plein air ou dans la chambre.",
-            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=150&auto=format&fit=crop",
-            "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=mini+projector+4k"
+            "title": "Tendance : scozia - marocco",
+            "category": "Google Trends Live",
+            "price": "Forte hausse requêtes",
+            "viral_score": 96,
+            "market_context": "Sujet actuellement dans le Top 5 des recherches Google en France. Intérêt du public maximal à exploiter immédiatement.",
+            "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=150",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=scozia%20-%20marocco&geo=FR"
         },
         {
-            "title": "Masseur Oculaire Chauffant Bluetooth",
-            "category": "Bien-être",
-            "price": "22.00 USD",
-            "viral_score": 90,
-            "market_context": "Aide à la relaxation et soulage la fatigue des écrans. Produit premium d'impulsion.",
-            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=150&auto=format&fit=crop",
-            "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=heating+eye+massager"
-        },
-        {
-            "title": "Brosse Nettoyante Visage Ultrasons",
-            "category": "Beauté & Soins",
-            "price": "14.50 USD",
-            "viral_score": 83,
-            "market_context": "Forte demande en cosmétique. Produit à forte marge pour les boutiques de soins.",
-            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=150&auto=format&fit=crop",
-            "sourcing_url": "https://www.alibaba.com/trade/search?SearchText=ultrasonic+face+cleanser"
+            "title": "Tendance : caverne pont neuf",
+            "category": "Google Trends Live",
+            "price": "Forte hausse requêtes",
+            "viral_score": 95,
+            "market_context": "Sujet actuellement dans le Top 5 des recherches Google en France. Intérêt du public maximal à exploiter immédiatement.",
+            "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=150",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=caverne%20pont%20neuf&geo=FR"
         }
     ]
 }
