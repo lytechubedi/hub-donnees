@@ -1,28 +1,26 @@
 document.addEventListener("DOMContentLoaded", () => {
     const conteneur = document.body;
     
-    // 1. Création d'une zone propre pour accueillir nos cartes de produits
+    // 1. Création de la zone pour les cartes de produits
     const zoneCatalogue = document.createElement("div");
     zoneCatalogue.id = "catalogue-booster";
     zoneCatalogue.style.cssText = "display: flex; flex-direction: column; gap: 20px; padding: 10px; max-width: 500px; margin: 0 auto;";
     
-    // On cherche l'ancien bloc de vérification pour insérer notre catalogue juste au-dessus
-    const footer = document.querySelector("div:last-of-type");
-    if (footer) {
-        footer.parentNode.insertBefore(zoneCatalogue, footer);
+    // On cible précisément le footer officiel grâce à sa classe
+    const footerOfficiel = document.querySelector(".footer-boa");
+    if (footerOfficiel) {
+        footerOfficiel.parentNode.insertBefore(zoneCatalogue, footerOfficiel);
     } else {
         conteneur.appendChild(zoneCatalogue);
     }
 
-    // 2. Chargement des données fraîches du robot
-    // Le "?t=" force le téléphone à charger les vrais nouveaux produits sans rester bloqué sur une ancienne version
+    // 2. Chargement des données du robot
     fetch("data/ecom_products.json?t=" + new Date().getTime())
         .then(reponse => reponse.json())
         .then(data => {
-            // On vide la zone avant d'afficher
             zoneCatalogue.innerHTML = "";
             
-            // 3. Boucle pour afficher chaque produit un par un
+            // 3. Boucle pour afficher chaque produit
             data.items.forEach(produit => {
                 const carte = document.createElement("div");
                 carte.style.cssText = "background: #1a233a; border: 1px solid #2c3b59; border-radius: 12px; padding: 15px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1);";
@@ -41,14 +39,16 @@ document.addEventListener("DOMContentLoaded", () => {
                 zoneCatalogue.appendChild(carte);
             });
             
-            // Mise à jour de l'heure de vérification en bas du site
-            const verifBox = document.querySelector("div:last-of-type p") || footer;
-            if (verifBox) {
-                verifBox.innerHTML = `Mise à jour BOA à : ${data.last_updated}`;
+            // 4. On remplace proprement le texte du footer tout en bas
+            if (footerOfficiel) {
+                const pFooter = footerOfficiel.querySelector("p");
+                if (pFooter) {
+                    pFooter.innerHTML = `Mise à jour BOA à : ${data.last_updated}`;
+                }
             }
         })
         .catch(erreur => {
-            console.error("Erreur de liaison :", erreur);
+            console.error("Erreur :", erreur);
             zoneCatalogue.innerHTML = "<p style='color: #ef4444; text-align:center;'>Mise à jour du flux en cours...</p>";
         });
 });
