@@ -1,50 +1,50 @@
 {
-    "last_updated": "19:14",
+    "last_updated": "08:29",
     "items": [
         {
-            "title": "Tendance : novak djokovic",
+            "title": "Tendance : bagayoko bally",
             "category": "Google Trends Live",
-            "price": "2000+ recherches",
+            "price": "1000+ recherches",
             "viral_score": 99,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRCw7z6sHIo-wjefCg6UemORdZLLXZKRDzVJelTkx_5aIRna1dBXorznk_l38E",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=novak%20djokovic&geo=FR"
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSNBCQzrM2Sns-4LFZT-TDreBEM2jHCrtXibKoGSqr0ZacZG6EDwo8_HREuF8U",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=bagayoko%20bally&geo=FR"
         },
         {
-            "title": "Tendance : jamel debbouze",
-            "category": "Google Trends Live",
-            "price": "1000+ recherches",
-            "viral_score": 98,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT8sp3lSRhNlvJLszb1ofCuA9do5sKBAA8eVYQCPmOoHaQMEmEcQowkJe_roEg",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=jamel%20debbouze&geo=FR"
-        },
-        {
-            "title": "Tendance : isabelle adjani",
-            "category": "Google Trends Live",
-            "price": "1000+ recherches",
-            "viral_score": 97,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQtU3d6kcOFgylS4WWU5gKJDzS_TBqM6cG0h0eGjZ-fRm6uuDxvqNrYmAxOQjs",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=isabelle%20adjani&geo=FR"
-        },
-        {
-            "title": "Tendance : djokovic",
-            "category": "Google Trends Live",
-            "price": "500+ recherches",
-            "viral_score": 96,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS3H5R5yRKFBnV2FtQmt0RyZgqj_LCxRl1hUyeT4_ysmQId4maevLQaDFJwsMo",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=djokovic&geo=FR"
-        },
-        {
-            "title": "Tendance : belgium vs senegal world cup 2026",
+            "title": "Tendance : streaming",
             "category": "Google Trends Live",
             "price": "200+ recherches",
+            "viral_score": 98,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSlczNeOwqHFE_VZ15tshf3ycQKS7EEPxj_I1rrAzuM87YZgfrtLngBXPEMiNU",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=streaming&geo=FR"
+        },
+        {
+            "title": "Tendance : benyamin netanyahou",
+            "category": "Google Trends Live",
+            "price": "100+ recherches",
+            "viral_score": 97,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ-LlsVt4ojqeERJTxPYJf97XdfvNyOp3zJAE5LV9z2Si7f8_iXZQdehQHx2dQ",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=benyamin%20netanyahou&geo=FR"
+        },
+        {
+            "title": "Tendance : simon abkarian",
+            "category": "Google Trends Live",
+            "price": "1000+ recherches",
+            "viral_score": 96,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcStng6LPkte7_vk62GzHoZrTZqSjB5JrP0JjKd20hLpjrzti-ENqkhKrULXjRI",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=simon%20abkarian&geo=FR"
+        },
+        {
+            "title": "Tendance : bally bagayoko",
+            "category": "Google Trends Live",
+            "price": "2000+ recherches",
             "viral_score": 95,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd5DFV_48qtGKS8jDDslpn19d5ioHZtLXUKj43PIbJxvs4JU_CmEsrjw0WWek",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=belgium%20vs%20senegal%20world%20cup%202026&geo=FR"
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS2i_QfegJLflUY61NP0PjkW38DzYHL_EJvT20_sm-ujD8zNVlRiMaoVTPUVCw",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=bally%20bagayoko&geo=FR"
         }
     ]
 }
