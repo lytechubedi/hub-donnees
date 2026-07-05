@@ -1,50 +1,50 @@
 {
-    "last_updated": "21:16",
+    "last_updated": "09:47",
     "items": [
         {
-            "title": "Tendance : philadelphia",
+            "title": "Tendance : la provence",
             "category": "Google Trends Live",
-            "price": "200+ recherches",
+            "price": "500+ recherches",
             "viral_score": 99,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRx8B4B-ynhKfCOYQpF_iIUmz9NykYtfKRjnlTqUOf-IKUMQQfXL_gR5qtqy-k",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=philadelphia&geo=FR"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ADKXAG4LqYtbHnyuF2Q6HQDkgkbNoB14VsjK9EVEEMwAJWUjbdPO3Hd1VX8",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=la%20provence&geo=FR"
         },
         {
-            "title": "Tendance : ngolo kante",
+            "title": "Tendance : émirats arabes unis",
             "category": "Google Trends Live",
             "price": "200+ recherches",
             "viral_score": 98,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa_mSxcFgD2zoyTVRiomyvbjXbkietUIGCS7j3Xd6KOMMfYNbgKPd21Eg7EkM",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=ngolo%20kante&geo=FR"
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTyuvbol0l6gVQl-MYQyUGmrO77c-Xi25lYXUOqoxHGuBjVFbMel9ZT_UxveeQ",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=%C3%A9mirats%20arabes%20unis&geo=FR"
         },
         {
-            "title": "Tendance : paraguay",
+            "title": "Tendance : gp silverstone",
             "category": "Google Trends Live",
-            "price": "5000+ recherches",
+            "price": "1000+ recherches",
             "viral_score": 97,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQBqNFdTjpPbHWRVDtHdZTxKVvYWrjkGnu8yPQAMbACGVzE3AoRTnSv8iywYWE",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=paraguay&geo=FR"
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTNvTwjjYw6FY8WJNTbFg9EmQWRf6IaXqjhaUVYHugRrnf07o1qUEi9xmj-0FQ",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=gp%20silverstone&geo=FR"
         },
         {
-            "title": "Tendance : loto 4 juillet 2026",
+            "title": "Tendance : belle-île-en-mer",
             "category": "Google Trends Live",
             "price": "100+ recherches",
             "viral_score": 96,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS50HnG35vM5tcXeAYUjKpuJ7QurY69TbaPZVOWCF4S1staV2DNvtfQdPAhfs8",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=loto%204%20juillet%202026&geo=FR"
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQKwDzef-oTNUKmZrkHmRI1OT-IADCfKBBVJffKPW5EOb6RrP8heA4QLwMJVtQ",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=belle-%C3%AEle-en-mer&geo=FR"
         },
         {
-            "title": "Tendance : camille lacourt",
+            "title": "Tendance : pompier",
             "category": "Google Trends Live",
-            "price": "500+ recherches",
+            "price": "10000+ recherches",
             "viral_score": 95,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSRNAVgMHWsAMnNXvZFENxU7-OxzTIsGSOdKIWi2m0vWshH4M9rCf6u4xW2K8c",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=camille%20lacourt&geo=FR"
+            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSsYknNV8-J3jer-bd5asOZB12nGFzvzq6E2MpA1psPjhFaiKfy4fxFerCwqRY",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=pompier&geo=FR"
         }
     ]
 }
