@@ -1,50 +1,50 @@
 {
-    "last_updated": "00:09",
+    "last_updated": "09:30",
     "items": [
         {
-            "title": "Tendance : h&m",
+            "title": "Tendance : luis de la fuente",
             "category": "Google Trends Live",
-            "price": "500+ recherches",
+            "price": "200+ recherches",
             "viral_score": 99,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTbdwGG43-GUTXwpc2TCNgZyHadlDKE_Pl2NY_6lBpXaM3F1Dcp_Krgu_QLK4s",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=h%26m&geo=FR"
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT6tDkmyOaPFn_FqQfKII786PA01r6fM7WkZBwHes-7HymeKfSAvvoDk0b614k",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=luis%20de%20la%20fuente&geo=FR"
         },
         {
-            "title": "Tendance : france argentine",
-            "category": "Google Trends Live",
-            "price": "2000+ recherches",
-            "viral_score": 98,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSZNBZwa-ZVNVKiPEoHkKt2wQCH1WPs9WdIEX0BzmpbU56l1d46Hf4ZEDxZi2Q",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=france%20argentine&geo=FR"
-        },
-        {
-            "title": "Tendance : argentine espagne",
-            "category": "Google Trends Live",
-            "price": "2000+ recherches",
-            "viral_score": 97,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS91x9-V6KvNS5zYA6mZ9XMx9qGRZiudZ1UO22GsLsJHO5IHy45ibQRxJw9v3Q",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=argentine%20espagne&geo=FR"
-        },
-        {
-            "title": "Tendance : meteo paris",
+            "title": "Tendance : olise",
             "category": "Google Trends Live",
             "price": "5000+ recherches",
-            "viral_score": 96,
+            "viral_score": 98,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTSvay5wMQzXjdNT-1BQ9yoAumjamcNx2-OVtaNbDEa8oxcB-zXUZ3usjMkn4M",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=meteo%20paris&geo=FR"
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRVtz20t_SPZ_GklTDM329N8__7wbi5KY77xa9GjYVpIFGBcweJQnd_5wzUIb4",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=olise&geo=FR"
         },
         {
-            "title": "Tendance : weather paris",
+            "title": "Tendance : horoscope 14 juillet 2026",
+            "category": "Google Trends Live",
+            "price": "200+ recherches",
+            "viral_score": 97,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtbVagOw3MN5BT4exsOL296UlfycFhLCoax3jIsqLLQmzgZSzPUHM4t2DhPZs",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=horoscope%2014%20juillet%202026&geo=FR"
+        },
+        {
+            "title": "Tendance : thomas pesquet",
+            "category": "Google Trends Live",
+            "price": "200+ recherches",
+            "viral_score": 96,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSK6CZkRgxrKQAZxCdOYljRtkRzvg0l1lXYvChw6d80PDtO6u5El1J5y2i44VQ",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=thomas%20pesquet&geo=FR"
+        },
+        {
+            "title": "Tendance : president ukraine",
             "category": "Google Trends Live",
             "price": "200+ recherches",
             "viral_score": 95,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRRCnKIK00nHKa0ErPUqQkiksSCwStDRetgnHCorMjZzgoT1xayBxrHsHmbWFo",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=weather%20paris&geo=FR"
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRfI2so3AP3WH1XmI84f0HF-3m_Peo6bC5VaX9UqN4uHADjGlmmI4x9kXq4Mic",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=president%20ukraine&geo=FR"
         }
     ]
 }
