@@ -1,50 +1,50 @@
 {
-    "last_updated": "16:24",
+    "last_updated": "19:34",
     "items": [
         {
-            "title": "Tendance : joëlle pouy",
+            "title": "Tendance : loto 22 juillet 2026",
             "category": "Google Trends Live",
-            "price": "1000+ recherches",
+            "price": "500+ recherches",
             "viral_score": 99,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSjR3tiVB4VX5Ars5Hb6picDXEt7MtTo4u3bk3cXzA55Y0XQ3aMFa1wXwNRJfg",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=jo%C3%ABlle%20pouy&geo=FR"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ795o983ipppml1rJ5FmMaajdtRn3Wah43QGGg19YxA2IQFzqPG47Vqzf5cxc",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=loto%2022%20juillet%202026&geo=FR"
         },
         {
-            "title": "Tendance : haut-commissariat",
+            "title": "Tendance : vincent cassel",
             "category": "Google Trends Live",
-            "price": "200+ recherches",
+            "price": "500+ recherches",
             "viral_score": 98,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRyUM5LArXeUjK6Wg-dyoLhNPOVKXflXngZ7sWrJ0n49bE6WEjiY3DENxa_-eE",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=haut-commissariat&geo=FR"
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT9HyF03rxkL327UJIneeb8d-V2JRXH9MWxL2PSrwtKn31hOA_Hu-oHIwGUG9Q",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=vincent%20cassel&geo=FR"
         },
         {
-            "title": "Tendance : fcn",
-            "category": "Google Trends Live",
-            "price": "1000+ recherches",
-            "viral_score": 97,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT25oHM9T4z2WXZDjeAYLAFZVNVoBEKiMqTf0IlmjNXX7lFIxv37JdkGkT5YpQ",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=fcn&geo=FR"
-        },
-        {
-            "title": "Tendance : grand chelem",
+            "title": "Tendance : ozempic",
             "category": "Google Trends Live",
             "price": "200+ recherches",
-            "viral_score": 96,
+            "viral_score": 97,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQBxbTFw75kS3OpI0NR5EpMCBCtl4Z-94tmYLJL0mhh2lnoW2wQu7i0p56FQuI",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=grand%20chelem&geo=FR"
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTf3AiCpVK1HR8PlnpDYkmmaRDYF5gHgkikBszR0SO86djZTMbNMYjKyOXdoPY",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=ozempic&geo=FR"
         },
         {
-            "title": "Tendance : excès de vitesse",
+            "title": "Tendance : l'agence nouvelles destinations",
+            "category": "Google Trends Live",
+            "price": "100+ recherches",
+            "viral_score": 96,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPM0wWDNsC0IDqmigJr54xeAxR_LZASzC8LUYKykS_DjyTqXwM9WPblyvX6ZM",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=l%27agence%20nouvelles%20destinations&geo=FR"
+        },
+        {
+            "title": "Tendance : guide tv",
             "category": "Google Trends Live",
             "price": "200+ recherches",
             "viral_score": 95,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtcD956hSxM-yJBMnVw7gnMge5cq-8l3uENWCAaxl2f4jqV6nuJ8rdyj0IEAY",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=exc%C3%A8s%20de%20vitesse&geo=FR"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlFoCKYKebKLGACVNZ8uHguZoz8jCcYyz5yNVHlb3lTfAeESYDyCcFt1TBpBQ",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=guide%20tv&geo=FR"
         }
     ]
 }
