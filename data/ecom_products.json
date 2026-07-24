@@ -1,50 +1,50 @@
 {
-    "last_updated": "22:08",
+    "last_updated": "03:21",
     "items": [
         {
-            "title": "Tendance : new york times",
+            "title": "Tendance : série gign netflix",
             "category": "Google Trends Live",
-            "price": "100+ recherches",
+            "price": "2000+ recherches",
             "viral_score": 99,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Wp3wYsFE9NVuwYW-w1z28LGXqU9_RydL7uUBhGV2faP4EmH_T1bbaFPcnM8",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=new%20york%20times&geo=FR"
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTL5l4isk9uIcu4RatZrLEJrTlFzf1sdzRQyCe9kI1NILBG7CmAsFlp4oQlMd8",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=s%C3%A9rie%20gign%20netflix&geo=FR"
         },
         {
-            "title": "Tendance : drag race",
+            "title": "Tendance : jd",
             "category": "Google Trends Live",
-            "price": "100+ recherches",
+            "price": "200+ recherches",
             "viral_score": 98,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSV0iQXsxhdWsITtdfxD1L3UELyldRuiMTzGJyKTT6-IRRk9zur1gmgTIbzL2c",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=drag%20race&geo=FR"
+            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRb04tDjU_1EL39zLMVJr0Jsy_nShYVKSQdf9AeuysAoqkQtokSLE1kMgOdbIc",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=jd&geo=FR"
         },
         {
-            "title": "Tendance : coupe d'afrique des nations de football 2027",
+            "title": "Tendance : epic games",
             "category": "Google Trends Live",
             "price": "100+ recherches",
             "viral_score": 97,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTyEJTGAZxQAJABCiWj4zxIR6bXGatZ4-xPB56rLSd326I31CWBlfogRmLlx_o",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=coupe%20d%27afrique%20des%20nations%20de%20football%202027&geo=FR"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXjI598WvPF2SoXBGX2Z_TqMSy33KFmZ_SVouzUntMd0wAkeGEs611StUT8Dk",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=epic%20games&geo=FR"
         },
         {
-            "title": "Tendance : secret story",
+            "title": "Tendance : spacex bourse",
             "category": "Google Trends Live",
-            "price": "50000+ recherches",
+            "price": "200+ recherches",
             "viral_score": 96,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQkxouXdZYPBEus6jhwklgjhO5zVpW4kwnKf0f6ABxe-qa9sN71CNoNvVPJyL4",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=secret%20story&geo=FR"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhSLMgWsDlkaTVp-rraiJMos_UFXSJYgVxZlBpeeFM6ZYGOW10w7j-YLZ8V0Q",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=spacex%20bourse&geo=FR"
         },
         {
-            "title": "Tendance : chevrotine",
+            "title": "Tendance : bce",
             "category": "Google Trends Live",
-            "price": "1000+ recherches",
+            "price": "100+ recherches",
             "viral_score": 95,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRso9014bamfUPeNtK0ORMIUlYRBxuJYctS1vVnG9E8OdCT0ElDw3zXXHg2RCY",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=chevrotine&geo=FR"
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSD5ioMXTt7p_m7BrkZYh2_WLUFayeFPcsUKKtBISETizH7-iFJtcXouivStds",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=bce&geo=FR"
         }
     ]
 }
