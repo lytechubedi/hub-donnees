@@ -1,50 +1,50 @@
 {
-    "last_updated": "21:59",
+    "last_updated": "03:33",
     "items": [
         {
-            "title": "Tendance : polémique",
+            "title": "Tendance : carte éclipse solaire",
             "category": "Google Trends Live",
-            "price": "200+ recherches",
+            "price": "2000+ recherches",
             "viral_score": 99,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQIOZfRpJdpk-RVzGeOETcGmnleBIXJhtyZZKuVv0aL2xcl8OvnM4Rz3vcoshY",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=pol%C3%A9mique&geo=FR"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlmGGMF5ObkC1qQJseRFEDhIsSUmMVKmXqePPEWKX8HkjUfYN923Cuv_DsGec",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=carte%20%C3%A9clipse%20solaire&geo=FR"
         },
         {
-            "title": "Tendance : the punisher",
+            "title": "Tendance : pleine lune aout 2026",
             "category": "Google Trends Live",
-            "price": "200+ recherches",
+            "price": "100+ recherches",
             "viral_score": 98,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrcL6VKeVSL2k0dEjQidMn0I1zrXlgvSBb6TWzN2e3syPlg8nReSobjF5NPv4",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=the%20punisher&geo=FR"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF6pD9EATM-lNBlsrGygJUP6eKNn-VVwYWDY6gti0N5yRdPC_pJswfdeQkrBs",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=pleine%20lune%20aout%202026&geo=FR"
         },
         {
-            "title": "Tendance : punisher",
+            "title": "Tendance : tom holland spiderman brand new day",
             "category": "Google Trends Live",
-            "price": "200+ recherches",
+            "price": "1000+ recherches",
             "viral_score": 97,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl5oxbJTv5iVU8K2xmi0c_V5IG_8GnzVeRHlZ0bzpf4so0G_t542z0My8ZvRM",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=punisher&geo=FR"
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSVkB9-yME920hZF8OtIaiEhf4MorJsqxuxtqozsVxYXBBYXLoy6GdqF0UAOK4",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=tom%20holland%20spiderman%20brand%20new%20day&geo=FR"
         },
         {
-            "title": "Tendance : gta 6",
+            "title": "Tendance : eau",
             "category": "Google Trends Live",
             "price": "500+ recherches",
             "viral_score": 96,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtIwhHdQapy1493IP2Jh-ioPM6o5yulYpl2WCbCEx5xXZD2b1lCZ77eR7ot1Y",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=gta%206&geo=FR"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9fmm-TJsq-0ESNLtKFOEYQKqOU7mNUqxXTC_y_SEi0tksXvfSGHfj2JjdZV4",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=eau&geo=FR"
         },
         {
-            "title": "Tendance : yan diomandé",
+            "title": "Tendance : loïs boisson",
             "category": "Google Trends Live",
             "price": "500+ recherches",
             "viral_score": 95,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTociUV5b77dG4H2Eem5529FEpK3IWZSB6IE1-iKeKlFJ3CVU6-zlyE_UL_qBc",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=yan%20diomand%C3%A9&geo=FR"
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRu0KEiS5nyStO5ZwmqKwEple7aP_yMl0knMSI3rcPL7EwV5-EtIiSTjWBgpyU",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=lo%C3%AFs%20boisson&geo=FR"
         }
     ]
 }
