@@ -1,50 +1,50 @@
 {
-    "last_updated": "05:52",
+    "last_updated": "08:44",
     "items": [
         {
-            "title": "Tendance : eclipse",
+            "title": "Tendance : meteo lille",
             "category": "Google Trends Live",
-            "price": "200+ recherches",
+            "price": "500+ recherches",
             "viral_score": 99,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS336h_m56FuGypjWt2efUQCwaO07WGgGPpmQfbUCA8lo-lq_gYBh0WTr3fcLY",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=eclipse&geo=FR"
+            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTWveweFYv6rRpTx-RpEUX2OHuVFft2zhlN3RzPPOPtSxccN7mUE5lXePkPS2k",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=meteo%20lille&geo=FR"
         },
         {
-            "title": "Tendance : claire arnoux",
+            "title": "Tendance : claire arnoux bfmtv",
             "category": "Google Trends Live",
-            "price": "100+ recherches",
+            "price": "500+ recherches",
             "viral_score": 98,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
             "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9PXNQrw2f1U6RahLLQzRA2NguDfiSj_DpCgs7CUHPKjMM6OS_SKjxQBkRxes",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=claire%20arnoux&geo=FR"
+            "sourcing_url": "https://trends.google.com/trends/explore?q=claire%20arnoux%20bfmtv&geo=FR"
         },
         {
-            "title": "Tendance : allocation rentrée scolaire 2026",
+            "title": "Tendance : abdul el sayed",
             "category": "Google Trends Live",
-            "price": "100+ recherches",
+            "price": "200+ recherches",
             "viral_score": 97,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg-YhiEOFSxMJ30bRdJLqKyp13D3aYirX6Gw3e-XYxJcIE177G5e8ALlF-m30",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=allocation%20rentr%C3%A9e%20scolaire%202026&geo=FR"
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRx8_lAk9Ar0H9a912tpiY4TwHI8Gx951Zz3XXN5okU1MmWLWF4QhG9MeNLxs0",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=abdul%20el%20sayed&geo=FR"
         },
         {
-            "title": "Tendance : incendie gare de la rochelle",
+            "title": "Tendance : flavio briatore",
             "category": "Google Trends Live",
             "price": "100+ recherches",
             "viral_score": 96,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQrLtTqLqB7o9l6umdJosP9JyQU2UkNgDyIMIP9OkynX7kddN2EU8oNHs2brcc",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=incendie%20gare%20de%20la%20rochelle&geo=FR"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPDHe6C41VZjeW-VviwOcdXFieJ5AcGPHiCc40qE-MBB2kOf0zQmitP75u7YA",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=flavio%20briatore&geo=FR"
         },
         {
-            "title": "Tendance : météo-france",
+            "title": "Tendance : combiné nordique",
             "category": "Google Trends Live",
-            "price": "200+ recherches",
+            "price": "100+ recherches",
             "viral_score": 95,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcROaoGkrV1xVXz9kHz6gUV0mawYa29WbrcaAsN7mI4BAKARa_zrJtEIdyqpTaY",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=m%C3%A9t%C3%A9o-france&geo=FR"
+            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTNy5YS_wOOaCjv8uPrdk6b0W_QmLoHRNqBP-uGeY2_CBGxhynnYicPWnih484",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=combin%C3%A9%20nordique&geo=FR"
         }
     ]
 }
