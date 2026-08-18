@@ -1,37 +1,37 @@
 {
-    "last_updated": "01:36",
+    "last_updated": "03:49",
     "items": [
+        {
+            "title": "Tendance : arthur fils",
+            "category": "Google Trends Live",
+            "price": "500+ recherches",
+            "viral_score": 99,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSLaVpHGB4Xl_2EMOyI8KanCaThcWtQ-nDWuIS8uUnj-3SXkdNh_Ucy35p9D8s",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=arthur%20fils&geo=FR"
+        },
         {
             "title": "Tendance : alexander zverev",
             "category": "Google Trends Live",
             "price": "200+ recherches",
-            "viral_score": 99,
+            "viral_score": 98,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQpoIVumxgQ0f3M8D2JbqYI29U52Y3QjhWzQohObSybnBHBc4Jd2HTf70922wU",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXiRm4oQ7MP7ZwHGe-UBYD5D00yoFgnSVsqyJBARe2Q6dr-i25Ypn5CF1p5tc",
             "sourcing_url": "https://trends.google.com/trends/explore?q=alexander%20zverev&geo=FR"
         },
         {
             "title": "Tendance : zelda ocarina of time remake",
             "category": "Google Trends Live",
-            "price": "100+ recherches",
-            "viral_score": 98,
+            "price": "200+ recherches",
+            "viral_score": 97,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
             "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR2X3a9KPKOH6-i95wMtHMYgJa0WIT5ZMEQD9iquqNrp_oU7CpoHqewcY_Kl7w",
             "sourcing_url": "https://trends.google.com/trends/explore?q=zelda%20ocarina%20of%20time%20remake&geo=FR"
         },
         {
-            "title": "Tendance : rentrée scolaire 2026",
-            "category": "Google Trends Live",
-            "price": "2000+ recherches",
-            "viral_score": 97,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHmDz5ni5txFpfkzL0oNbvekWTDKZiuIcyBsZKP6XOZIPFROXyhFM3haNAHs0",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=rentr%C3%A9e%20scolaire%202026&geo=FR"
-        },
-        {
             "title": "Tendance : itamar ben gvir",
             "category": "Google Trends Live",
-            "price": "500+ recherches",
+            "price": "1000+ recherches",
             "viral_score": 96,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
             "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRYWvuPz1JB45CDqY6ATVcWo3IWu-rEV32T70T5ZAOuDq97ca5xy4kiFv067vk",
