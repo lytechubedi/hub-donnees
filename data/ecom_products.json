@@ -1,50 +1,50 @@
 {
-    "last_updated": "15:26",
+    "last_updated": "18:37",
     "items": [
         {
-            "title": "Tendance : japon",
-            "category": "Google Trends Live",
-            "price": "1000+ recherches",
-            "viral_score": 99,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ5YuggjXSWvvOoREaMxg_nqJ3hfcENzqIOWA0P3mRj3nip3O7KBhfgkW_xlNY",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=japon&geo=FR"
-        },
-        {
-            "title": "Tendance : eric roy",
-            "category": "Google Trends Live",
-            "price": "2000+ recherches",
-            "viral_score": 98,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTDOhLlxTyYppuCZx79KG6RkVOkCeSeTRH32_fTlHUIN7SfV4-kkgrRK4m0kI",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=eric%20roy&geo=FR"
-        },
-        {
-            "title": "Tendance : plainte",
-            "category": "Google Trends Live",
-            "price": "2000+ recherches",
-            "viral_score": 97,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRrtsw6MaU6on7WtVb0csgU_5SWbmGU5qLi4SF_rVMKNJ4D9G_wh5Ce5-BOe9c",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=plainte&geo=FR"
-        },
-        {
-            "title": "Tendance : hong kong",
+            "title": "Tendance : morgan freeman",
             "category": "Google Trends Live",
             "price": "200+ recherches",
-            "viral_score": 96,
+            "viral_score": 99,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTctc6O3JyQytfk6j7D8LjFc3HfP6UDas9oDFiaz29xEO3e8SgqAzNE_N_AoZc",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=hong%20kong&geo=FR"
+            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQCh8o7aAm8CVcBPBtK7GCGM6qfRJIPiYyCNsl4kqvfdKYuF6hwwjmZUeNscT0",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=morgan%20freeman&geo=FR"
         },
         {
-            "title": "Tendance : walid regragui",
+            "title": "Tendance : la dépêche",
+            "category": "Google Trends Live",
+            "price": "5000+ recherches",
+            "viral_score": 98,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1b5NTtOa878D3i4u3Seb4BoEU82NEracnUWCgDnttDYM9M3ZI4mjYAlAgADg",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=la%20d%C3%A9p%C3%AAche&geo=FR"
+        },
+        {
+            "title": "Tendance : rock en seine 2026",
             "category": "Google Trends Live",
             "price": "100+ recherches",
+            "viral_score": 97,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQfZweM5P6Gzmg6Nl3uj_1hrUOkynme9sZ6UB8Z0YqnSycP4kG5CzXNCRQ_760",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=rock%20en%20seine%202026&geo=FR"
+        },
+        {
+            "title": "Tendance : le mans – brest",
+            "category": "Google Trends Live",
+            "price": "5000+ recherches",
+            "viral_score": 96,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlpmEXYT3IQGROcYk9ZT9PDRsu1D_KNSXdLKyvJsaNWuzFgP2Diy9NdCItA8Y",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=le%20mans%20%E2%80%93%20brest&geo=FR"
+        },
+        {
+            "title": "Tendance : nice – lorient",
+            "category": "Google Trends Live",
+            "price": "2000+ recherches",
             "viral_score": 95,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSKvg9tp8p1Vmy4r1hr0KECFirjuNTDa1BDJUVykB5aNy3Nr81w6XGdejW-z2A",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=walid%20regragui&geo=FR"
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSksWtjx6igmIIpU0ODwUOoOCFUwliWYnTXZlQzFHa0BLf3Bui87ETbEW6l0nI",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=nice%20%E2%80%93%20lorient&geo=FR"
         }
     ]
 }
