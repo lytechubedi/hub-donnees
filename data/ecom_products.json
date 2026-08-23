@@ -1,50 +1,50 @@
 {
-    "last_updated": "21:26",
+    "last_updated": "01:45",
     "items": [
         {
-            "title": "Tendance : dragons catalans",
-            "category": "Google Trends Live",
-            "price": "500+ recherches",
-            "viral_score": 99,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTmrBruERIu0p2UpQ3Y3ZD3nFJfGWKpiYgFLrVQlfuE1Edf2P4HIA-SpXYeu-g",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=dragons%20catalans&geo=FR"
-        },
-        {
-            "title": "Tendance : ligue a",
-            "category": "Google Trends Live",
-            "price": "200+ recherches",
-            "viral_score": 98,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT6Bgqed6RjugRrFNMcIbfNIvIfzZ_gDUHTdhex-JxOGQnblmQ3fwa219eWKic",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=ligue%20a&geo=FR"
-        },
-        {
-            "title": "Tendance : adn",
-            "category": "Google Trends Live",
-            "price": "200+ recherches",
-            "viral_score": 97,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTtrWEtxSC1s62nQp2A3RShB21tCpNHIACRJTGze_RTXKfsmHwmKrA0KJ4FfT4",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=adn&geo=FR"
-        },
-        {
-            "title": "Tendance : dumfries",
+            "title": "Tendance : mapandco",
             "category": "Google Trends Live",
             "price": "100+ recherches",
-            "viral_score": 96,
+            "viral_score": 99,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTg6nz1IwLluCf74ZhHek_QKGXTull76jDBR-hRy_2L18sFVT5bNhcMSaz_ybs",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=dumfries&geo=FR"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRs2kHHRq8pP-o4tOAgSTiq-6d_8LlNozD4TAVAYAjIFv6gpr0f0AlNYrCPn0",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=mapandco&geo=FR"
         },
         {
-            "title": "Tendance : marcos rodríguez pantoja",
+            "title": "Tendance : tirage loto resultat",
+            "category": "Google Trends Live",
+            "price": "5000+ recherches",
+            "viral_score": 98,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTyTrTsU7xb3nm9d4KTFAa3VW8hiKD_nmJLbglG77-0HEHELyL8eWZ6syv8jo4",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=tirage%20loto%20resultat&geo=FR"
+        },
+        {
+            "title": "Tendance : élection miss réunion 2026",
+            "category": "Google Trends Live",
+            "price": "2000+ recherches",
+            "viral_score": 97,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSZIEZuoWeYkO5N8NCfYoASAcc2CkvuXFa_xhQtwFmuWpTS8WnaYWbZd39bZuI",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=%C3%A9lection%20miss%20r%C3%A9union%202026&geo=FR"
+        },
+        {
+            "title": "Tendance : bangladesh vs australia",
+            "category": "Google Trends Live",
+            "price": "200+ recherches",
+            "viral_score": 96,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy3Svl9fl9FWIO9W7o6oJllXRLkVIUw06BWV_Qb7y8YT1wiLlMsNDTHFwz9Yo",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=bangladesh%20vs%20australia&geo=FR"
+        },
+        {
+            "title": "Tendance : cruzeiro – flamengo",
             "category": "Google Trends Live",
             "price": "100+ recherches",
             "viral_score": 95,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsHJgIIbeDX4JxyexhaBvq-RYaIEu1Ulu0XAC5jDfIzIGJvrFNrf7tLy7Zz_k",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=marcos%20rodr%C3%ADguez%20pantoja&geo=FR"
+            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRByI7CCjBlQUEuEKoZQYO2dre0fHv70i6dLgTbXMBf3gEd8Usv2_LhvnznaFA",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=cruzeiro%20%E2%80%93%20flamengo&geo=FR"
         }
     ]
 }
