@@ -1,50 +1,50 @@
 {
-    "last_updated": "21:34",
+    "last_updated": "01:37",
     "items": [
         {
-            "title": "Tendance : guerre ukraine",
+            "title": "Tendance : pleine lune",
             "category": "Google Trends Live",
-            "price": "1000+ recherches",
+            "price": "200+ recherches",
             "viral_score": 99,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRYQIohIt8r3WtCKYMejDs4wDF6jIwZnbCVqd0tRI98dnnZ3lCzUg1BrwvTak0",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=guerre%20ukraine&geo=FR"
+            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQEBtseErE-ArFO63rH8sHUrb3jRt9f1zP65Ez7hxwlorF6KGWNQcFPP8Srlog",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=pleine%20lune&geo=FR"
         },
         {
-            "title": "Tendance : jul v and b fest",
+            "title": "Tendance : tv oled",
             "category": "Google Trends Live",
-            "price": "100+ recherches",
+            "price": "200+ recherches",
             "viral_score": 98,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRhoaK-B8hcwJpcP_f6KVPJ9iwxyZI2ivdlMarQyfE2pvEhe4DHGtp6A0Msefg",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=jul%20v%20and%20b%20fest&geo=FR"
+            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQt4IRVPKxC3hiseK846oOOJI-IjsnO4sGH1-ziM0CySrfubdJ_uM7U-FCSW9s",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=tv%20oled&geo=FR"
         },
         {
-            "title": "Tendance : meurtres au paradis",
-            "category": "Google Trends Live",
-            "price": "1000+ recherches",
-            "viral_score": 97,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQAvZyod2olJ2l4h1dmDJE5lnKV_u8LLAc25HPy0Vr6yZD1KhDEAM1QIHxQtdU",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=meurtres%20au%20paradis&geo=FR"
-        },
-        {
-            "title": "Tendance : gamescom 2026",
+            "title": "Tendance : meteo ajaccio",
             "category": "Google Trends Live",
             "price": "100+ recherches",
-            "viral_score": 96,
+            "viral_score": 97,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSAhe-BRhY24c7DvwpiBR7Xfd60XXDODJCJX-y9j1D3JBX_Qio9L7e4QhIuCuM",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=gamescom%202026&geo=FR"
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRZ-0wxU4RtzVKnCXY7N5wWGyaqOOF0aCozGeSZlXQAUl54QbyhYz7KtLseXHA",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=meteo%20ajaccio&geo=FR"
         },
         {
-            "title": "Tendance : mireille dumas",
+            "title": "Tendance : bordeaux",
+            "category": "Google Trends Live",
+            "price": "200+ recherches",
+            "viral_score": 96,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR0AWL81V2ugfGd28j46EqO2nWdKnd4W1Hpdyu-jFS45yld15S8xnFrYE9Fzfo",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=bordeaux&geo=FR"
+        },
+        {
+            "title": "Tendance : nîmes",
             "category": "Google Trends Live",
             "price": "200+ recherches",
             "viral_score": 95,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTb6smynQfAz9GPmNJ0Gko63g-Pq2wQIim77AmileP6LjitJ-ZBB_4umEts3pc",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=mireille%20dumas&geo=FR"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbgVlejYq1kM7z0NS_OATKaFRnqniq6J3zR2jAlZJ_llALTltZn8OPH5TWtpA",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=n%C3%AEmes&geo=FR"
         }
     ]
 }
