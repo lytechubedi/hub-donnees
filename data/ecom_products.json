@@ -1,50 +1,50 @@
 {
-    "last_updated": "19:52",
+    "last_updated": "00:36",
     "items": [
         {
-            "title": "Tendance : real",
-            "category": "Google Trends Live",
-            "price": "2000+ recherches",
-            "viral_score": 99,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQcTM3-CbbFW0l1u57HeDvprrjokNe5zX68uTiebGRHjk8bpu9IiCmEvgI-wT0",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=real&geo=FR"
-        },
-        {
-            "title": "Tendance : tottenham",
+            "title": "Tendance : palmeiras – santos",
             "category": "Google Trends Live",
             "price": "200+ recherches",
-            "viral_score": 98,
+            "viral_score": 99,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTjy5tyGGMfLVeGWHpd6Xpw-Syin5TV6CD1gC01P3OMQllrm-TD-iYbAFXpgHw",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=tottenham&geo=FR"
+            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSogxOOe2STyNDfmU3y0CBvmIfv25tItHK9zQdeLZfHIGQD9Q9FNYTL_k8-mqM",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=palmeiras%20%E2%80%93%20santos&geo=FR"
         },
         {
-            "title": "Tendance : corée du sud",
+            "title": "Tendance : eva longoria",
+            "category": "Google Trends Live",
+            "price": "100+ recherches",
+            "viral_score": 98,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSOunRgORVFUqIA2pTtL0dffyLYM1dzmPHa_KsGwipfYFuSg5-KshZoubXyfRg",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=eva%20longoria&geo=FR"
+        },
+        {
+            "title": "Tendance : kick",
             "category": "Google Trends Live",
             "price": "200+ recherches",
             "viral_score": 97,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQs2Nwwq0zOpUnkoE5ad_xver6sYjzl2bGF8QM6U6oYHjqCO645RSwUwl8A0JQ",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=cor%C3%A9e%20du%20sud&geo=FR"
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRMg3-AdEkVmCa6kYgBIUjK0DapKvIJJxpQdJdPT-rXQ-_5IS7i7vx9RZwzQBE",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=kick&geo=FR"
         },
         {
-            "title": "Tendance : le républicain lorrain",
+            "title": "Tendance : resultat loto fdj",
             "category": "Google Trends Live",
-            "price": "100+ recherches",
+            "price": "1000+ recherches",
             "viral_score": 96,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-S6hAnfkNdy5xoBuJgB6yyA0NkcL_nDUP1c70OS3PR2UiTu-tlQmJaQzyYPk",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=le%20r%C3%A9publicain%20lorrain&geo=FR"
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT9wJBEFVwANIZ20aHgtOYxyIF746KWaX2IJgOHJS6K5z0vhA5UNt4wcwOyQDs",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=resultat%20loto%20fdj&geo=FR"
         },
         {
-            "title": "Tendance : ligue des champions 2026",
+            "title": "Tendance : meteo le havre",
             "category": "Google Trends Live",
-            "price": "2000+ recherches",
+            "price": "100+ recherches",
             "viral_score": 95,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRGnUD4SsFPaUan_-8OMtEescoT5ctmHAAoxxsOkLgjprnXprrViCBfKlxjczU",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=ligue%20des%20champions%202026&geo=FR"
+            "image_url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&auto=format&fit=crop&q=80",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=meteo%20le%20havre&geo=FR"
         }
     ]
 }
