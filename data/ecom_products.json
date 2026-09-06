@@ -1,50 +1,50 @@
 {
-    "last_updated": "04:01",
+    "last_updated": "10:40",
     "items": [
         {
-            "title": "Tendance : alexander zverev",
+            "title": "Tendance : xavier niel",
             "category": "Google Trends Live",
             "price": "200+ recherches",
             "viral_score": 99,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ6fMnGWYfOhSgYJ1f2pg7xYbtVWCG5ITII1iZBcHJlOhz19qtoGqq5rKmIgp4",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=alexander%20zverev&geo=FR"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7HNslN2wNS99mTVE9fPg5qcMtKVXytlt7R8zliGXh1cjGIi4_KfB6nkcZ2ZY",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=xavier%20niel&geo=FR"
         },
         {
-            "title": "Tendance : botic van de zandschulp",
-            "category": "Google Trends Live",
-            "price": "200+ recherches",
-            "viral_score": 98,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQRGHMfdNJVQSt6SQRIaubnCPVVlETDS_euKintjXi0jO9UeszIBxMwPYwTr7Y",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=botic%20van%20de%20zandschulp&geo=FR"
-        },
-        {
-            "title": "Tendance : naomi osaka",
+            "title": "Tendance : mike tyson",
             "category": "Google Trends Live",
             "price": "100+ recherches",
-            "viral_score": 97,
+            "viral_score": 98,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTIf9xpLSPYdDGhn5QHwHseX0kHvQB0X4qSxB8Cp6G7U-MEeXEgjXPK9b9LRds",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=naomi%20osaka&geo=FR"
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTip1kV9IR3piLOe0dDWp-BKl5tT6cOkMEHTCit1EZymK93j8R5U1te1vxQLbQ",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=mike%20tyson&geo=FR"
         },
         {
-            "title": "Tendance : mathieu blanchard",
+            "title": "Tendance : fete de l'huma 2026",
             "category": "Google Trends Live",
             "price": "200+ recherches",
-            "viral_score": 96,
+            "viral_score": 97,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzMO8yRxRDyOZwsErqjyWUhYOXC_3XOn1TcWtD7WX3fBubB2auREaZ4kATM9Y",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=mathieu%20blanchard&geo=FR"
+            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&auto=format&fit=crop&q=80",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=fete%20de%20l%27huma%202026&geo=FR"
         },
         {
-            "title": "Tendance : iva jovic",
+            "title": "Tendance : équateur",
+            "category": "Google Trends Live",
+            "price": "100+ recherches",
+            "viral_score": 96,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR6yTgMeCAsP3DaorJVgayer4JU0F8yhfoEHSZDwsMRJB1in0AU-oKQ6qUT3cU",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=%C3%A9quateur&geo=FR"
+        },
+        {
+            "title": "Tendance : croatie",
             "category": "Google Trends Live",
             "price": "500+ recherches",
             "viral_score": 95,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRq_SDf9g0W1QdL8yOWLFVAO4qaxZ-Z7GOorqZSztbXqdIaHdoxwBjQWDJUhl8",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=iva%20jovic&geo=FR"
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR4PC9OcdjeN7humKYeiKGqCB9HP_463D3zcitc9eYKZENeUkBOcyg986ccZGM",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=croatie&geo=FR"
         }
     ]
 }
