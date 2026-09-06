@@ -1,50 +1,50 @@
 {
-    "last_updated": "10:40",
+    "last_updated": "15:16",
     "items": [
         {
-            "title": "Tendance : xavier niel",
+            "title": "Tendance : barca",
             "category": "Google Trends Live",
-            "price": "200+ recherches",
+            "price": "2000+ recherches",
             "viral_score": 99,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7HNslN2wNS99mTVE9fPg5qcMtKVXytlt7R8zliGXh1cjGIi4_KfB6nkcZ2ZY",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=xavier%20niel&geo=FR"
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSJOXb_YEx7LXrMq7uVSjfcFOWTSOFHCAXIMeopk53P0r8X3M9YtZsGDtANs94",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=barca&geo=FR"
         },
         {
-            "title": "Tendance : mike tyson",
-            "category": "Google Trends Live",
-            "price": "100+ recherches",
-            "viral_score": 98,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTip1kV9IR3piLOe0dDWp-BKl5tT6cOkMEHTCit1EZymK93j8R5U1te1vxQLbQ",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=mike%20tyson&geo=FR"
-        },
-        {
-            "title": "Tendance : fete de l'huma 2026",
+            "title": "Tendance : agathe lecaron",
             "category": "Google Trends Live",
             "price": "200+ recherches",
-            "viral_score": 97,
+            "viral_score": 98,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&auto=format&fit=crop&q=80",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=fete%20de%20l%27huma%202026&geo=FR"
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTp8Zzs2BLythfshhC8V8eI6RAeljkI1MisaCy5vb7L20fawvs-rrLYj9ewk2w",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=agathe%20lecaron&geo=FR"
         },
         {
-            "title": "Tendance : équateur",
+            "title": "Tendance : primaire présidentielle socialiste",
+            "category": "Google Trends Live",
+            "price": "100+ recherches",
+            "viral_score": 97,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQVQE4FAZzao7uz63wQrheshxM9Q_h-vI08SrbG4lPYgtfR6NwknfjkACnPiDs",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=primaire%20pr%C3%A9sidentielle%20socialiste&geo=FR"
+        },
+        {
+            "title": "Tendance : deportação",
             "category": "Google Trends Live",
             "price": "100+ recherches",
             "viral_score": 96,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR6yTgMeCAsP3DaorJVgayer4JU0F8yhfoEHSZDwsMRJB1in0AU-oKQ6qUT3cU",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=%C3%A9quateur&geo=FR"
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTXgiQaI53WoZmnH2bpZerfhucZdScfipEsNtDQWU6f-yQkIUwyqayprTpeYGU",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=deporta%C3%A7%C3%A3o&geo=FR"
         },
         {
-            "title": "Tendance : croatie",
+            "title": "Tendance : valentino rossi",
             "category": "Google Trends Live",
             "price": "500+ recherches",
             "viral_score": 95,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR4PC9OcdjeN7humKYeiKGqCB9HP_463D3zcitc9eYKZENeUkBOcyg986ccZGM",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=croatie&geo=FR"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn1JGm03Hgr96PIp02VwZH4frdwdEv4lNIWnHFro-WjXnloW9E-88WNXtHw5M",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=valentino%20rossi&geo=FR"
         }
     ]
 }
