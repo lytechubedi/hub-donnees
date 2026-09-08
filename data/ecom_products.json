@@ -1,50 +1,50 @@
 {
-    "last_updated": "04:03",
+    "last_updated": "10:59",
     "items": [
         {
-            "title": "Tendance : motard",
-            "category": "Google Trends Live",
-            "price": "500+ recherches",
-            "viral_score": 99,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRGjU8ZHfvEV0DeT_LYND_j9VM_wbnG_Yu1Pu6CJBUYJQgiE7NNvQodbzeRWyY",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=motard&geo=FR"
-        },
-        {
-            "title": "Tendance : tracfin",
-            "category": "Google Trends Live",
-            "price": "100+ recherches",
-            "viral_score": 98,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRjUg6SkI-W_WZY0RcPUqd-MZU2HAGDSE9iJ_m2sck-N_IRLRBK8lqTl_CQrgc",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=tracfin&geo=FR"
-        },
-        {
-            "title": "Tendance : alexander zverev",
+            "title": "Tendance : estéban lepaul",
             "category": "Google Trends Live",
             "price": "200+ recherches",
+            "viral_score": 99,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRHV9JIwPDAmZxFBEIYS1WU6dR5SMDtmV4iaKEODMpm6KFeEF5c0VxN2elq5tA",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=est%C3%A9ban%20lepaul&geo=FR"
+        },
+        {
+            "title": "Tendance : nino schurter",
+            "category": "Google Trends Live",
+            "price": "200+ recherches",
+            "viral_score": 98,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSfKL_ShzeVuj06hO-unTW0bqR7rqeDHCqPSgs2fvG2GiL7VeV2BIp38U4cBkU",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=nino%20schurter&geo=FR"
+        },
+        {
+            "title": "Tendance : chômage",
+            "category": "Google Trends Live",
+            "price": "2000+ recherches",
             "viral_score": 97,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ6fMnGWYfOhSgYJ1f2pg7xYbtVWCG5ITII1iZBcHJlOhz19qtoGqq5rKmIgp4",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=alexander%20zverev&geo=FR"
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSlkLmuq91VNanH3xXfdXpjdQDfd1NjG_ibsKjxSX6Op_fYutOERanjjQ2WQyA",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=ch%C3%B4mage&geo=FR"
         },
         {
-            "title": "Tendance : anould",
+            "title": "Tendance : finance",
             "category": "Google Trends Live",
-            "price": "100+ recherches",
+            "price": "200+ recherches",
             "viral_score": 96,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQZ-KA3IVPqrgjxxPUyZtw5c8_l1642xahMDXntG_MvfOXnLCMuqfS1h-VAO3M",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=anould&geo=FR"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqFHf2o2YgIrAbUEE_j9z00iUKO4OeFZ8FXBTEy677ahZuRKNzlF77buQY2aQ",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=finance&geo=FR"
         },
         {
-            "title": "Tendance : astra",
+            "title": "Tendance : horoscope du 8 septembre 2026",
             "category": "Google Trends Live",
-            "price": "100+ recherches",
+            "price": "200+ recherches",
             "viral_score": 95,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTizaljbC0QLNIbVqWi9CnsvHnT--0J2CJyCREAGT73yO3X7UA5qYz3usA7jKA",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=astra&geo=FR"
+            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQR3q4QUzHvSwDNuK81SUcbzsSyL22VOoJSQWbyxfvsI21fQ2tsee7yhbYbGRQ",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=horoscope%20du%208%20septembre%202026&geo=FR"
         }
     ]
 }
