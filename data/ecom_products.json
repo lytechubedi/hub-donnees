@@ -1,50 +1,50 @@
 {
-    "last_updated": "00:18",
+    "last_updated": "08:48",
     "items": [
         {
-            "title": "Tendance : thunder – suns",
+            "title": "Tendance : chauffage",
             "category": "Google Trends Live",
-            "price": "200+ recherches",
+            "price": "2000+ recherches",
             "viral_score": 99,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPQ_GrcinCCkUWcqx0O_kdOD-XUT2_38rN953efbnBo_ERfeEvSW27OlPwhfg",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=thunder%20%E2%80%93%20suns&geo=FR"
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQZhCFQgFC5CDGLSEriBOnrIbuL_9uuYfSlnChdfWAE4UqO-HN2XcbFaO_ZLk8",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=chauffage&geo=FR"
         },
         {
-            "title": "Tendance : worlds lol",
-            "category": "Google Trends Live",
-            "price": "200+ recherches",
-            "viral_score": 98,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQG3w0x0Cf-N9YIyn7B8-B0GAuDUoy7ymiQHZXUnW9pFrYFtUMb3alCsrin2Ro",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=worlds%20lol&geo=FR"
-        },
-        {
-            "title": "Tendance : worlds lol 2026",
-            "category": "Google Trends Live",
-            "price": "200+ recherches",
-            "viral_score": 97,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSSq0Wd6_QpIFOqSewyjGo59q7mZVgpP_9UWNxD3Bi7o1bKvgF2E7rFZd8Hu9A",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=worlds%20lol%202026&geo=FR"
-        },
-        {
-            "title": "Tendance : heat – mavericks",
-            "category": "Google Trends Live",
-            "price": "200+ recherches",
-            "viral_score": 96,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-EexV4H3uMUrTUKRYX0ImdGY8y4QVEOx-H2Us-pjVBCZ_ukyAhCnJGODmfk",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=heat%20%E2%80%93%20mavericks&geo=FR"
-        },
-        {
-            "title": "Tendance : lol esport",
+            "title": "Tendance : richesse",
             "category": "Google Trends Live",
             "price": "500+ recherches",
+            "viral_score": 98,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRyKFeq0CYFLEO3_YCubguwQUc-FmIpp0kQjcHYAHV8NDqfX7zxXhUsMxAzWEA",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=richesse&geo=FR"
+        },
+        {
+            "title": "Tendance : totalenergies",
+            "category": "Google Trends Live",
+            "price": "500+ recherches",
+            "viral_score": 97,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQwKBB3BOW-hT_xYx91xgW3V7trfyh4m1MmjPxdH5SHL1983HD5Hgw0ppoe51w",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=totalenergies&geo=FR"
+        },
+        {
+            "title": "Tendance : l'écho républicain",
+            "category": "Google Trends Live",
+            "price": "500+ recherches",
+            "viral_score": 96,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQJA2smZxD4rPh1BHVG0YinBwmyq76Wt1fGp12O7g3R_E5lBI3cEI6I3qEWwN0",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=l%27%C3%A9cho%20r%C3%A9publicain&geo=FR"
+        },
+        {
+            "title": "Tendance : sylvie tellier",
+            "category": "Google Trends Live",
+            "price": "200+ recherches",
             "viral_score": 95,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqRBulQAKwwMg_8T_gC8fegZq0e8PdgbjCIvfu7iDjv7lld0AROoWz3EA66hY",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=lol%20esport&geo=FR"
+            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTSzwn7J1s4ZrP4HxYrq8ZiQ0zXC8ONbaCQAFY-Mua5S6k6O8vBsUr2jzt0shc",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=sylvie%20tellier&geo=FR"
         }
     ]
 }
