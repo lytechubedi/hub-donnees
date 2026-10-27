@@ -1,50 +1,50 @@
 {
-    "last_updated": "20:22",
+    "last_updated": "00:18",
     "items": [
         {
-            "title": "Tendance : vozinha",
+            "title": "Tendance : thunder – suns",
             "category": "Google Trends Live",
-            "price": "1000+ recherches",
+            "price": "200+ recherches",
             "viral_score": 99,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuHpQM_4eXnQo8atXDDaVxte_Z9_zNLKqJe3Q917omwh1iEoglQzuJWElDDjA",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=vozinha&geo=FR"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPQ_GrcinCCkUWcqx0O_kdOD-XUT2_38rN953efbnBo_ERfeEvSW27OlPwhfg",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=thunder%20%E2%80%93%20suns&geo=FR"
         },
         {
-            "title": "Tendance : m6 direct",
+            "title": "Tendance : worlds lol",
             "category": "Google Trends Live",
-            "price": "2000+ recherches",
+            "price": "200+ recherches",
             "viral_score": 98,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRixOW7q9wvtxWhL8vY51xGMTsaDSSRzft66sRiDeJEmBS8uUWhElxiGLBKmFQ",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=m6%20direct&geo=FR"
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQG3w0x0Cf-N9YIyn7B8-B0GAuDUoy7ymiQHZXUnW9pFrYFtUMb3alCsrin2Ro",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=worlds%20lol&geo=FR"
         },
         {
-            "title": "Tendance : david raya",
+            "title": "Tendance : worlds lol 2026",
             "category": "Google Trends Live",
-            "price": "500+ recherches",
+            "price": "200+ recherches",
             "viral_score": 97,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcxSXsE_57AOzGZFk2Ad09Cl6tMwtT2sZLBsSijnD32y-p-KZhwylLV6Raf3c",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=david%20raya&geo=FR"
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSSq0Wd6_QpIFOqSewyjGo59q7mZVgpP_9UWNxD3Bi7o1bKvgF2E7rFZd8Hu9A",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=worlds%20lol%202026&geo=FR"
         },
         {
-            "title": "Tendance : polska",
+            "title": "Tendance : heat – mavericks",
             "category": "Google Trends Live",
-            "price": "500+ recherches",
+            "price": "200+ recherches",
             "viral_score": 96,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjm0gOVQlkMTVrq98jw2siQoh-sfnoAqaNyQTZiVRG-smyQ4M2SEAEL_nCbRs",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=polska&geo=FR"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt-EexV4H3uMUrTUKRYX0ImdGY8y4QVEOx-H2Us-pjVBCZ_ukyAhCnJGODmfk",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=heat%20%E2%80%93%20mavericks&geo=FR"
         },
         {
-            "title": "Tendance : loterie",
+            "title": "Tendance : lol esport",
             "category": "Google Trends Live",
             "price": "500+ recherches",
             "viral_score": 95,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSOX_NQIiJySBGrHJFX6u2CSZt-StwOJ32ougYH61jgv1Rh6mGEcebfKwHGcMY",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=loterie&geo=FR"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqRBulQAKwwMg_8T_gC8fegZq0e8PdgbjCIvfu7iDjv7lld0AROoWz3EA66hY",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=lol%20esport&geo=FR"
         }
     ]
 }
