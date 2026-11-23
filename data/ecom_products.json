@@ -1,50 +1,50 @@
 {
-    "last_updated": "01:28",
+    "last_updated": "12:04",
     "items": [
         {
-            "title": "Tendance : jazz – mavericks",
+            "title": "Tendance : chèque énergie",
             "category": "Google Trends Live",
-            "price": "100+ recherches",
+            "price": "2000+ recherches",
             "viral_score": 99,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1jMudYqz4hm0EaepiPZY3IHEcBgXroGTH_0eVY1PYfrXFdkaPJn9fVh8JYGc",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=jazz%20%E2%80%93%20mavericks&geo=FR"
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQLi8BDOzfTMDmb37npBqz4-zu-HQIWRk2neumiB5PyKVk8w0vZCjA0Ot-btRI",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=ch%C3%A8que%20%C3%A9nergie&geo=FR"
         },
         {
-            "title": "Tendance : kleinanzeigen",
+            "title": "Tendance : revenu",
             "category": "Google Trends Live",
             "price": "500+ recherches",
             "viral_score": 98,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdRkESIi6Lv5fZZcR0lq46H_Y6BQmquZBt0K0uzsnekubhP7pkmIA3b8ZQgXQ",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=kleinanzeigen&geo=FR"
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQTgkVE-NoK7DPYpolJ-6T5gPP2nprNuxY9AiLPp5fqM_HA6zlP3N0ctLDZltk",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=revenu&geo=FR"
         },
         {
-            "title": "Tendance : hailey bieber",
+            "title": "Tendance : lydia bouchard star academy",
             "category": "Google Trends Live",
-            "price": "100+ recherches",
+            "price": "2000+ recherches",
             "viral_score": 97,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ0RLXYLpjb7SIEk8kY-3uvtMDvXRxTGvm_7fuxk3_DV94gfM7FFl9ogABR2fw",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=hailey%20bieber&geo=FR"
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoFVbe_aFpeliboW40A2jUosj1jnQD3z__hDeguCWWHKIj8C7DuLZ4Cqpb6M8",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=lydia%20bouchard%20star%20academy&geo=FR"
         },
         {
-            "title": "Tendance : sabine azema dussollier",
+            "title": "Tendance : brive festival",
             "category": "Google Trends Live",
-            "price": "20000+ recherches",
+            "price": "200+ recherches",
             "viral_score": 96,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSGSPtSwEu7TvecBtLGJ1p9iPdCwIG_lzyEiIed4bt_iGN0wwc2JaqGEG2pe_g",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=sabine%20azema%20dussollier&geo=FR"
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRtsAVP0vQ8ad4DxapuwbxZ8wH3Ar8E0bJtEi1KSRVgiIEbhXaDHjpb3ySZXlc",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=brive%20festival&geo=FR"
         },
         {
-            "title": "Tendance : leonida",
+            "title": "Tendance : coupe d'afrique des nations de football 2025",
             "category": "Google Trends Live",
             "price": "200+ recherches",
             "viral_score": 95,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTxy4VS-DHLgwspxrWYEEdFimRzBt-_nu871flTk1joAU-S8TLJgLAd7AmI10Y",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=leonida&geo=FR"
+            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSI7CBAfC992cBpgmLKtkV0M-vXy8TyKG_ahPkA8GNY2fMv6pOOd5RuXFLrc-k",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=coupe%20d%27afrique%20des%20nations%20de%20football%202025&geo=FR"
         }
     ]
 }
