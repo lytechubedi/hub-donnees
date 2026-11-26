@@ -1,50 +1,50 @@
 {
-    "last_updated": "19:03",
+    "last_updated": "03:26",
     "items": [
         {
-            "title": "Tendance : britney spears",
+            "title": "Tendance : trail blazers – spurs",
             "category": "Google Trends Live",
             "price": "200+ recherches",
             "viral_score": 99,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRuwPd455-trpG6J6YCqqN-JwmEmP4R1i8uLx2wSpZkhdCTdpAzXoKGp30g8O8",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=britney%20spears&geo=FR"
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT8SuMy9AZ1T75H0nwWlubkOpjhX4lgEW4-txAjc5Fvq3qMLHtyqL-Jk8mhHLs",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=trail%20blazers%20%E2%80%93%20spurs&geo=FR"
         },
         {
-            "title": "Tendance : maillot psg",
+            "title": "Tendance : le parisien",
             "category": "Google Trends Live",
             "price": "200+ recherches",
             "viral_score": 98,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS7CWBubUSRMi8us6mmAS5KnfC-INgLTHoyPyqNKU0lhU5-36ZUOCKfCLb8xVo",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=maillot%20psg&geo=FR"
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQlesYTIJi8g9qeqNGLjVEPrJdKZpt3qmT2fo1C8Z_7sdpp4MenJ6F6IrlLlWM",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=le%20parisien&geo=FR"
         },
         {
-            "title": "Tendance : le meilleur pâtissier 2026",
-            "category": "Google Trends Live",
-            "price": "200+ recherches",
-            "viral_score": 97,
-            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSvl-J-O5buIQ5C6ZpFSWqaFDd1rIvZZ0bvMRXq2qI4HGRCrrX_9WH1jBvxPVg",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=le%20meilleur%20p%C3%A2tissier%202026&geo=FR"
-        },
-        {
-            "title": "Tendance : abu dhabi desert challenge",
+            "title": "Tendance : knicks – cavaliers",
             "category": "Google Trends Live",
             "price": "100+ recherches",
-            "viral_score": 96,
+            "viral_score": 97,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRKljn0viHVDnbtsSD1m6Ap2IUM3fNTK9tWb4-YFuIB5L449lBR1z4YW_KAT0",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=abu%20dhabi%20desert%20challenge&geo=FR"
+            "image_url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQf6NRLTso-hGNRlWIxHk3vvop1v1cO-fWLZstCxyKDT6F_VDmI0JB_iJ3IqUg",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=knicks%20%E2%80%93%20cavaliers&geo=FR"
         },
         {
-            "title": "Tendance : a13",
+            "title": "Tendance : tirage loto résultats",
             "category": "Google Trends Live",
-            "price": "1000+ recherches",
+            "price": "200+ recherches",
+            "viral_score": 96,
+            "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT9wJBEFVwANIZ20aHgtOYxyIF746KWaX2IJgOHJS6K5z0vhA5UNt4wcwOyQDs",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=tirage%20loto%20r%C3%A9sultats&geo=FR"
+        },
+        {
+            "title": "Tendance : thunder – timberwolves",
+            "category": "Google Trends Live",
+            "price": "200+ recherches",
             "viral_score": 95,
             "market_context": "Sujet chaud actuellement dans le Top 5 Google France. Volume d'intérêt maximal détecté en temps réel.",
-            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR9Fbw9jILCjPvB-EIElkBFUUpPlnhRTNHqwQ2Svv9So4QQkokDMMvWaGuRgvs",
-            "sourcing_url": "https://trends.google.com/trends/explore?q=a13&geo=FR"
+            "image_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRDYq1mjaebDDyfVYOKuuT9fkU_8ta_9WYC1QsPNUUPvm-CE8yo7KemDDVwsSw",
+            "sourcing_url": "https://trends.google.com/trends/explore?q=thunder%20%E2%80%93%20timberwolves&geo=FR"
         }
     ]
 }
